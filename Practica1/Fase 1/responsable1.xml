@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <responsable identificadorFiscal="S123456J">
     <colaboradores>
+        <colaboraror>Sara</colaboraror>
+        <colaboraror>Sara Jimenez </colaboraror>
         <colaboraror>Sara Jimenez MUñoz</colaboraror>
         <departamento>NombreDepartamento</departamento>
+        <departamento>NombreDepartamento2</departamento>
     </colaboradores>
     <contacto>
         <email>correo@gmail.com</email>
+        <uri>https://www.paginaweb.com</uri>
     </contacto>
-  
 </responsable>

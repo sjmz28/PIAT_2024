@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SARA JIMÉNEZ MUÑOZ-->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://www.piat.upm.es/tareaSchema"
+    xmlns:tns="http://www.piat.upm.es/tareaSchema"
+    elementFormDefault="qualified">
+
+    <xsd:element name="tarea" type="tns:tareaType"/>
+
+    <xsd:complexType name="tareaType">
+        <xsd:sequence>
+            <xsd:element name="descripcionTarea" type="xsd:string" minOccurs="1"/>
+            <xsd:element name="espacioTarea" type="tns:espacioTareaType"></xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="idTarea" type="tns:idTareaType"/>
+    </xsd:complexType>
+
+<!-- ************************* TIPOS **************************-->
+
+    <xsd:simpleType name="idTareaType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[A-Z]{5}\-[0-9]{4}"/> <!-- creo que para que aparezca el - se debe de negar con \-->
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:complexType name="espacioTareaType">
+        <xsd:choice> <!-- Puede ser uno y solo no-->
+            <xsd:element name="volumenEspacio" type="tns:volumenEspacioType"/>
+            <xsd:element name="puntosEspacio" type="tns:puntosEspacioType"></xsd:element>
+            <xsd:element name="imagen" type="tns:imagenType"/>
+        </xsd:choice>
+    </xsd:complexType>
+
+<!-- ************************************************************-->
+<!-- ****************** VOLUMEN ESPACIO *********************-->
+    <xsd:complexType name="volumenEspacioType">
+        <xsd:all>
+            <xsd:element name="centro">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="latitud" type="tns:latitudType"/>
+                        <xsd:element name="longitud" type="tns:longitudType"/>
+                        <xsd:element name="altitud" type="tns:altitudType"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="forma" type="tns:formaType"/>
+            <xsd:element name="altura" type="xsd:integer"/>
+        </xsd:all>
+    </xsd:complexType>
+    
+            <xsd:simpleType name="latitudType">
+                <xsd:restriction base="xsd:double">
+                    <xsd:minInclusive value="0"/>
+                    <xsd:maxInclusive value="180"/>
+                </xsd:restriction>
+            </xsd:simpleType>
+
+            <xsd:simpleType name="longitudType">
+                <xsd:restriction base="xsd:double">
+                    <xsd:minInclusive value="-90"/>
+                    <xsd:maxInclusive value="90"/>
+                </xsd:restriction>
+
+            </xsd:simpleType>
+            <xsd:simpleType name="altitudType">
+                <xsd:restriction base="xsd:double">
+                    <xsd:minInclusive value="-416.5"/>
+                    <xsd:maxInclusive value="8848"/>
+                </xsd:restriction>
+            </xsd:simpleType>
+
+    <xsd:simpleType name="formaType">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="círculo"/>
+            <xsd:enumeration value="cuadrado"/>
+            <xsd:enumeration value="rectángulo"/>
+            <xsd:enumeration value="polígono"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+<!-- ************************************************************-->
+<!-- ******************** PUNTOS ESPACIO ************************-->
+<xsd:complexType name="puntosEspacioType">
+    <xsd:sequence> <!-- como tienen que estar obligaoriamene pero minimo 3 mejor uso un sequence y pongo todo obligatorio-->
+        <xsd:element name="punto" minOccurs="3" maxOccurs="unbounded">
+            <xsd:complexType>
+                <xsd:sequence>
+                    <xsd:element name="latitud" type="tns:latitudType"/>
+                    <xsd:element name="longitud" type="tns:longitudType"/>
+                    <xsd:element name="altitud" type="tns:altitudType"/>
+                </xsd:sequence>
+            </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="altura" type="xsd:integer" minOccurs="1" />
+    </xsd:sequence>
+</xsd:complexType>
+
+<!-- ************************************************************-->
+<!-- ************************* IMAGEN ***************************-->
+<xsd:complexType name="imagenType">
+    <xsd:all>
+        <xsd:element name="datosImagen" type="tns:datosImagenType"></xsd:element>
+        <xsd:element name="contenido" type="tns:contenidoType"/>
+    </xsd:all>
+    <xsd:attribute name="idImagen" type="tns:idImagenType"></xsd:attribute>
+</xsd:complexType>
+
+        <xsd:simpleType name="idImagenType">
+            <xsd:restriction base="xsd:string">
+                <xsd:pattern value="IMAG(0-9){3}"></xsd:pattern>
+            </xsd:restriction>
+        </xsd:simpleType>
+
+        <xsd:complexType name="datosImagenType">
+            <xsd:sequence>
+                <xsd:element name="dimensiones" minOccurs="1">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="ancho" type="xsd:double" minOccurs="1"/>
+                            <xsd:element name="alto" type="xsd:double" minOccurs="1"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="descripcion" type="xsd:string" minOccurs="0"/> <!-- elemento opcional de longitud indefinida-->
+            </xsd:sequence>
+        </xsd:complexType>
+
+        <xsd:complexType name="contenidoType">
+            <xsd:simpleContent>
+                <xsd:extension base="xsd:base64Binary">
+                    <xsd:attribute name="formato" type="tns:formatoType"/>
+                </xsd:extension>
+            </xsd:simpleContent>
+        </xsd:complexType>
+
+                <xsd:simpleType name="formatoType">
+                    <xsd:restriction base="xsd:string">
+                        <xsd:enumeration value="image/gif"/>
+                        <xsd:enumeration value="image/jpeg"/>
+                        <xsd:enumeration value="image/png"/>
+                    </xsd:restriction>
+                </xsd:simpleType>
+
+</xsd:schema>

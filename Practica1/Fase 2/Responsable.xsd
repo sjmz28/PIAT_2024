@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SARA JIMÉNEZ MUÑOZ-->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://www.piat.upm.es/responsableSchema"
+    xmlns:tns="http://www.piat.upm.es/responsableSchema"
+    elementFormDefault="qualified">
+
+    
+    <xsd:element name="responsable" type="tns:responsableType"/>
+
+    <xsd:complexType name="responsableType">
+        <xsd:sequence> <!-- no importa el orden de aparicion -->
+
+            <xsd:element name="colaboradores"> <!-- es una lista no vacia de elementos por lo que -->
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="colaborador" type="xsd:string" maxOccurs="unbounded"/> <!-- es opcional  -->
+                        <xsd:element name="departamento" type="xsd:string" maxOccurs="unbounded"/> <!-- es opcional  -->
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+
+            <xsd:element name="contacto">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="email" type="xsd:string"/>
+                        <xsd:element name="uri" type="xsd:anyURI" minOccurs="1"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+
+        </xsd:sequence>
+        <xsd:attribute name="identificadorFisal" type="tns:identificadorFisalType"/>
+        
+    </xsd:complexType>
+
+    <xsd:simpleType name="identificadorFisalType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[A-Z][0-9]{7}[A-Z]"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+</xsd:schema>

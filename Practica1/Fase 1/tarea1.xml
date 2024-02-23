@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tarea>
+  <descripcionTarea>Una cadena de caracteres que describa la idea</descripcionTarea>
+  <espacioTarea>
+    <volumenEspacio>
+        <centro>
+            <longitud>87</longitud>
+            <latitud>87</latitud>
+            <altitud>967</altitud>
+        </centro>
+        <formal>circulo</formal>
+        <altura>876</altura>
+    </volumenEspacio>
+  </espacioTarea>
+</tarea>

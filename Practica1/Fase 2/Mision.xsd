@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://www.piat.upm.es/misionSchema"
+    xmlns:tns="http://www.piat.upm.es/misionSchema"
+
+
+    xmlns:res="http://www.piat.upm.es/responsableSchema"
+    xmlns:rob="http://www.piat.upm.es/robotSchema"
+    xmlns:tar="http://www.piat.upm.es/tareaSchema"
+    elementFormDefault="qualified">
+
+    <xsd:import namespace="http://www.piat.upm.es/responsableSchema" schemaLocation="Responsable.xsd"/>
+    <xsd:import namespace="http://www.piat.upm.es/robotSchema" schemaLocation="Robot.xsd"/>
+    <xsd:import namespace="http://www.piat.upm.es/tareaSchema" schemaLocation="Tarea.xsd"/>
+
+    <xsd:element name="mision" type="tns:misionType"/>
+
+    <xsd:complexType name="misionType">
+        <xsd:sequence>
+            <xsd:element name="fecha" type="xsd:date" minOccurs="1"/>
+            <xsd:element name="idioma">
+                <xsd:complexType>
+                    <xsd:attribute name="lang" type="tns:langType"/>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="descripcion" type="tns:descripcionType" minOccurs="1"/>
+            <xsd:element name="responsables" minOccurs="1">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="responsable" type="res:responsableType" maxOccurs="unbounded"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="robots" minOccurs="1">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="robot" type="rob:robotType" maxOccurs="unbounded"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="tareas" minOccurs="1">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="tarea" type="tar:tareaType" maxOccurs="unbounded"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="robotTarea" minOccurs="1" maxOccurs="unbounded">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="tareaRealizada" type="tar:idTareaType"/> <!-- KEY REF-->
+                        <xsd:element name="robotasignado" type="rob:idRobotType" minOccurs="1" maxOccurs="10"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="idMision" type="tns:idMisionType"/>
+    </xsd:complexType>
+
+<!-- ************************************************************************-->
+<!-- ******************************* TIPOS **********************************-->
+
+    <xsd:simpleType name="idMisionType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="MIS(0-9){3}"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="langType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="(a-z){2}"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:complexType name="descripcionType" mixed="true"> <!-- compuesto por una combinación de cadenas de caracteres y palabras clave key-->
+        <xsd:sequence>
+            <xsd:element name="key" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+</xsd:schema>

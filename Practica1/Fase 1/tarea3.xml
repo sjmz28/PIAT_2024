@@ -2,21 +2,6 @@
 <tarea>
   <descripcionTarea>Una cadena de caracteres que describa la idea</descripcionTarea>
   <espacioTarea>
-    <volumenEspacio>
-        <centro>
-            <longitud>87</longitud>
-            <latitud>87</latitud>
-            <altitud>967</altitud>
-        </centro>
-        <formal>circulo</formal>
-        <altura>876</altura>
-    </volumenEspacio>
-    <puntosEspacio>
-        <longitud>82</longitud>
-        <latitud>82</latitud>
-        <altitud>982</altitud>
-        <altura>9293</altura>
-    </puntosEspacio>
     <imagen idImagen="IMAG001">
         <datosImagen>
             <dimensiones>

@@ -4,7 +4,7 @@
     <sistemaLimpieza>ozono</sistemaLimpieza>
     <homologaciones>homologacion1 homologacion2 homologacion3</homologaciones>
     <sensores>
-        <numeroSensores>3</numeroSensores>
+        <numeroSensores>2</numeroSensores>
         <sensor idSensor="sj2MG">
             <patogeno>patogeno1</patogeno>
             <densidad>5000 bacterias/m2</densidad>
@@ -15,7 +15,7 @@
         </sensor>
     </sensores>
     <actuadores>
-        <numeroActuadores>7</numeroActuadores>
+        <numeroActuadores>1</numeroActuadores>
         <actuador idActuador="3j2MG">
             <descripcion>esto es una descripcion</descripcion>
             <alcance>

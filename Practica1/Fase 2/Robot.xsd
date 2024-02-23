@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SARA JIMÉNEZ MUÑOZ-->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://www.piat.upm.es/robotSchema"
+    xmlns:tns="http://www.piat.upm.es/robotSchema"
+    elementFormDefault="qualified">
+
+    <xsd:element name="robot" type="tns:robotType"/>
+
+    <xsd:complexType name="robotType">
+        <xsd:sequence> <!-- secuencia de siguientes elementos -->
+            <xsd:element name="funcionalidad" type="tns:funcionalidadType" minOccurs="1"/>
+            <xsd:element name="sistemaLimpieza" type="tns:sistemLimpiezaType" minOccurs="1"/>
+            <xsd:element name="homologaciones" type="tns:homologacionesType" minOccurs="0"/>
+            <xsd:element name="sensores">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="numeroSensores" type="xsd:integer" minOccurs="1"/>
+                        <xsd:element name="sensor" type="tns:sensorType" minOccurs="1"/> <!-- lista no vacia de elementos -->
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="actuadores">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="numeroActuadores" type="xsd:integer" minOccurs="1"/>
+                        <xsd:element name="actuador" type="tns:actuadorType" minOccurs="1"/> <!-- lista no vacia de elementos -->
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="idRobot" type="tns:idRobotType"/>
+    </xsd:complexType>
+
+<!-- *************** Tipos ***************-->
+    <xsd:simpleType name="idRobotType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="id-\d{3}"></xsd:pattern>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="funcionalidadType">
+        <xsd:restriction base="xsd:string">
+            <xsd:maxLength value="256"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="sistemLimpiezaType">
+        <xsd:restriction base="xsd:token">
+            <xsd:enumeration value="ozono"/>
+            <xsd:enumeration value="vapor"/>
+            <xsd:enumeration value="ultravioleta"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="homologacionesType">
+    <xsd:restriction base="xsd:string">
+        <xsd:pattern value="(\w+\s*){0,10}"/>
+    </xsd:restriction>
+    </xsd:simpleType>
+
+    <!-- ***********************************************************-->
+    <!-- ************************** SENSOR *************************-->
+    <xsd:complexType name="sensorType">
+        <xsd:sequence>
+            <xsd:element name="patogeno" type="tns:patogenoType"/>
+            <xsd:element name="densidad" type="tns:densidadType"/>
+        </xsd:sequence>
+        <xsd:attribute name="idSensor" type="tns:idSensorType"></xsd:attribute>    
+    </xsd:complexType>
+
+
+    <xsd:simpleType name="idSensorType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="(a-z){2}(0-9)(A-Z){2}"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="patogenoType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="\w+"/> <!-- una palabra -->
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="densidadType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="\d+\w+\/m2"/><!-- un numero seguido de una palabra y luego el sistema de medida -->
+        </xsd:restriction>
+    </xsd:simpleType>
+
+<!-- *********************************************************************-->
+<!-- ************************** ACTUADORES *******************************-->
+<xsd:complexType name="actuadorType">
+    <xsd:sequence>
+        <xsd:element name="descripcion" type="xsd:string"/>
+        <xsd:element name="alcanceActuacion" type="tns:alcanceActuacionType"/>
+    </xsd:sequence>
+    <xsd:attribute name="idActuador" type="tns:idActuadorType"/> <!-- los atributos siempre al final-->
+</xsd:complexType>
+
+
+<xsd:simpleType name="idActuadorType">
+    <xsd:restriction base="xsd:string">
+        <xsd:pattern value="(A-Z){2}(0-9){2}"/>
+    </xsd:restriction>
+</xsd:simpleType>
+
+<xsd:complexType name="alcanceActuacionType">
+    <xsd:sequence>
+        <xsd:element name="tipoActuacion" type="xsd:string"/>
+        <xsd:element name="fechasActuacion" type="tns:fechasActuacionType"/>
+    </xsd:sequence>
+</xsd:complexType>
+
+<xsd:simpleType name="fechasActuacionType">
+    <xsd:list >
+        <xsd:simpleType>
+            <xsd:union memberTypes="xsd:dateTime xsd:time"/> <!-- para poder admitir dos tipo de elementos en uno-->
+        </xsd:simpleType>
+    </xsd:list>
+</xsd:simpleType>
+
+
+</xsd:schema>
