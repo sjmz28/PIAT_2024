@@ -10,7 +10,7 @@
     <xsd:complexType name="tareaType">
         <xsd:sequence>
             <xsd:element name="descripcionTarea" type="xsd:string" minOccurs="1"/>
-            <xsd:element name="espacioTarea" type="tns:espacioTareaType"></xsd:element>
+            <xsd:element name="espacioTarea" type="tns:espacioTareaType" minOccurs="1"></xsd:element>
         </xsd:sequence>
         <xsd:attribute name="idTarea" type="tns:idTareaType"/>
     </xsd:complexType>
@@ -19,14 +19,14 @@
 
     <xsd:simpleType name="idTareaType">
         <xsd:restriction base="xsd:string">
-            <xsd:pattern value="[A-Z]{5}\-[0-9]{4}"/> <!-- creo que para que aparezca el - se debe de negar con \-->
+            <xsd:pattern value="[A-Z]{5}-[0-9]{4}"/> <!-- 5 letras mayusculas seguidas de un guion y 4 digitos-->
         </xsd:restriction>
     </xsd:simpleType>
 
     <xsd:complexType name="espacioTareaType">
         <xsd:choice> <!-- Puede ser uno y solo no-->
             <xsd:element name="volumenEspacio" type="tns:volumenEspacioType"/>
-            <xsd:element name="puntosEspacio" type="tns:puntosEspacioType"></xsd:element>
+            <xsd:element name="puntosEspacio" type="tns:puntosEspacioType"/>
             <xsd:element name="imagen" type="tns:imagenType"/>
         </xsd:choice>
     </xsd:complexType>
@@ -37,15 +37,15 @@
         <xsd:all>
             <xsd:element name="centro">
                 <xsd:complexType>
-                    <xsd:sequence>
-                        <xsd:element name="latitud" type="tns:latitudType"/>
-                        <xsd:element name="longitud" type="tns:longitudType"/>
-                        <xsd:element name="altitud" type="tns:altitudType"/>
-                    </xsd:sequence>
+                    <xsd:all>
+                        <xsd:element name="latitud" type="tns:latitudType" minOccurs="1"/>
+                        <xsd:element name="longitud" type="tns:longitudType" minOccurs="1"/>
+                        <xsd:element name="altitud" type="tns:altitudType" minOccurs="1"/>
+                    </xsd:all>
                 </xsd:complexType>
             </xsd:element>
             <xsd:element name="forma" type="tns:formaType"/>
-            <xsd:element name="altura" type="xsd:integer"/>
+            <xsd:element name="altura" type="tns:alturaType"/>
         </xsd:all>
     </xsd:complexType>
     
@@ -71,11 +71,17 @@
             </xsd:simpleType>
 
     <xsd:simpleType name="formaType">
-        <xsd:restriction base="xsd:string">
+        <xsd:restriction base="xsd:token">
             <xsd:enumeration value="círculo"/>
             <xsd:enumeration value="cuadrado"/>
             <xsd:enumeration value="rectángulo"/>
             <xsd:enumeration value="polígono"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="alturaType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="\d+cm"/>
         </xsd:restriction>
     </xsd:simpleType>
 
@@ -92,7 +98,7 @@
                 </xsd:sequence>
             </xsd:complexType>
         </xsd:element>
-        <xsd:element name="altura" type="xsd:integer" minOccurs="1" />
+        <xsd:element name="altura" type="tns:alturaType" minOccurs="1" />
     </xsd:sequence>
 </xsd:complexType>
 
@@ -100,15 +106,15 @@
 <!-- ************************* IMAGEN ***************************-->
 <xsd:complexType name="imagenType">
     <xsd:all>
-        <xsd:element name="datosImagen" type="tns:datosImagenType"></xsd:element>
+        <xsd:element name="datosImagen" type="tns:datosImagenType"/>
         <xsd:element name="contenido" type="tns:contenidoType"/>
     </xsd:all>
-    <xsd:attribute name="idImagen" type="tns:idImagenType"></xsd:attribute>
+    <xsd:attribute name="idImagen" type="tns:idImagenType"/>
 </xsd:complexType>
 
         <xsd:simpleType name="idImagenType">
             <xsd:restriction base="xsd:string">
-                <xsd:pattern value="IMAG(0-9){3}"></xsd:pattern>
+                <xsd:pattern value="IMAG[0-9]{3}"/>
             </xsd:restriction>
         </xsd:simpleType>
 
@@ -116,10 +122,10 @@
             <xsd:sequence>
                 <xsd:element name="dimensiones" minOccurs="1">
                     <xsd:complexType>
-                        <xsd:sequence>
+                        <xsd:all>
                             <xsd:element name="ancho" type="xsd:double" minOccurs="1"/>
                             <xsd:element name="alto" type="xsd:double" minOccurs="1"/>
-                        </xsd:sequence>
+                        </xsd:all>
                     </xsd:complexType>
                 </xsd:element>
                 <xsd:element name="descripcion" type="xsd:string" minOccurs="0"/> <!-- elemento opcional de longitud indefinida-->
@@ -135,7 +141,7 @@
         </xsd:complexType>
 
                 <xsd:simpleType name="formatoType">
-                    <xsd:restriction base="xsd:string">
+                    <xsd:restriction base="xsd:token">
                         <xsd:enumeration value="image/gif"/>
                         <xsd:enumeration value="image/jpeg"/>
                         <xsd:enumeration value="image/png"/>

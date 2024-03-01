@@ -9,31 +9,31 @@
     <xsd:element name="responsable" type="tns:responsableType"/>
 
     <xsd:complexType name="responsableType">
-        <xsd:sequence> <!-- no importa el orden de aparicion -->
-
+        <xsd:all> <!-- no importa el orden de aparicion -->
             <xsd:element name="colaboradores"> <!-- es una lista no vacia de elementos por lo que -->
                 <xsd:complexType>
-                    <xsd:sequence>
-                        <xsd:element name="colaborador" type="xsd:string" maxOccurs="unbounded"/> <!-- es opcional  -->
-                        <xsd:element name="departamento" type="xsd:string" maxOccurs="unbounded"/> <!-- es opcional  -->
+                    <xsd:sequence > <!-- de esta manera nos aseguramos de que no sea una lista vacia pero que no importe le orden -->
+                        <xsd:choice minOccurs="1" maxOccurs="unbounded">
+                        <xsd:element name="colaborador" type="xsd:string" /> 
+                        <xsd:element name="departamento" type="xsd:string" /> 
+                        </xsd:choice>
                     </xsd:sequence>
                 </xsd:complexType>
             </xsd:element>
 
             <xsd:element name="contacto">
                 <xsd:complexType>
-                    <xsd:sequence>
-                        <xsd:element name="email" type="xsd:string"/>
-                        <xsd:element name="uri" type="xsd:anyURI" minOccurs="1"/>
-                    </xsd:sequence>
+                    <xsd:all>
+                        <xsd:element name="email" type="xsd:string" minOccurs="1"/> <!-- obligatorio -->
+                        <xsd:element name="uri" type="xsd:anyURI" minOccurs="0" /> <!-- opcional -->
+                    </xsd:all>
                 </xsd:complexType>
             </xsd:element>
-
-        </xsd:sequence>
+        </xsd:all>
         <xsd:attribute name="identificadorFisal" type="tns:identificadorFisalType"/>
-        
     </xsd:complexType>
 
+<!-- ************************************* TIPOS *********************************************-->
     <xsd:simpleType name="identificadorFisalType">
         <xsd:restriction base="xsd:string">
             <xsd:pattern value="[A-Z][0-9]{7}[A-Z]"/>

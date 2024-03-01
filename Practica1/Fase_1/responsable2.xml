@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:responsable  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             
+             xmlns:tns="http://www.piat.upm.es/responsableSchema"
+             xsi:schemaLocation="http://www.piat.upm.es/responsableSchema ../Fase_2/Responsable.xsd">
+
+
+    <tns:colaboradores>
+        <tns:colaborador>Nombre3</tns:colaborador>
+        <tns:departamento>NombreDepartamento3</tns:departamento>
+        <tns:departamento>NombreDepartamento4</tns:departamento>
+    </tns:colaboradores>
+    <tns:contacto>
+        <tns:email>correo2@gmail.com</tns:email>
+    </tns:contacto>
+  
+</tns:responsable>

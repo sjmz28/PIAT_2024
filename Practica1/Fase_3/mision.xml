@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:mision  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             
+             xmlns:tns="http://www.piat.upm.es/misionSchema"
+             xsi:schemaLocation="http://www.piat.upm.es/misionSchema ../Fase_2/Mision.xsd">
+
+    <tns:fecha>2024-10-10</tns:fecha>
+    <tns:idioma lang="es"/>
+    <tns:descripcion>La mision consiste en la limpieza de la estacion espacial internacional</tns:descripcion>
+    <tns:responsables>
+        <tns:responsable>
+            <colaboradores>
+                <colaborador>
+                    
+                </colaborador>
+            </colaboradores>
+            
+        </tns:responsable>
+    </tns:responsables>
+</tns:mision>

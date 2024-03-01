@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:robot  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             
+             xmlns:tns="http://www.piat.upm.es/robotSchema"
+             xsi:schemaLocation="http://www.piat.upm.es/robotSchema ../Fase_2/Robot.xsd">
+             
+    <tns:funcionalidad>La funcionalidad de este robot es ser cute</tns:funcionalidad>
+    <tns:sistemaLimpieza>ozono</tns:sistemaLimpieza>
+    <tns:homologaciones>homologacion1 homologacion2 homologacion3</tns:homologaciones>
+    <tns:sensores>
+        <tns:numeroSensores>1</tns:numeroSensores>
+        <tns:sensor idSensor="sj2MG">
+            <tns:patogeno>patogeno1</tns:patogeno>
+            <tns:densidad>5080 bacterias/m3</tns:densidad>
+        </tns:sensor>
+    </tns:sensores>
+    <tns:actuadores>
+        <tns:numeroActuadores>7</tns:numeroActuadores>
+        <tns:actuador idActuador="JH78">
+            <tns:descripcion>esto es una descripcion</tns:descripcion>
+            <tns:alcanceActuacion>
+                <tns:fechasActuacion>
+                2024-01-01T00:00:01 2024-01-01T00:10:02 2024-03-01T00:00:03
+                00:00:04 00:00:05 00:00:06 00:00:07 00:00:08 00:00:09 00:00:10
+                </tns:fechasActuacion>
+                <tns:tipoActuacion>Texto qeu especifica la actuacion</tns:tipoActuacion>
+            </tns:alcanceActuacion>
+        </tns:actuador>
+        <tns:actuador idActuador="JK92">
+            <tns:descripcion>esto es una descripcion2</tns:descripcion>
+            <tns:alcanceActuacion>
+                <tns:fechasActuacion>
+                00:00:02 00:00:03 00:00:04 00:00:05 00:00:06 00:00:07 00:00:08 00:00:09 00:00:10
+                </tns:fechasActuacion>
+                <tns:tipoActuacion>Esto es un texro descriptivo del funcionamiento</tns:tipoActuacion>
+            </tns:alcanceActuacion>
+        </tns:actuador>
+    </tns:actuadores>
+</tns:robot>
