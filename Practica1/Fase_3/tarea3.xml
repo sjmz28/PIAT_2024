@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:tarea idTarea="JKLLL-0005" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             
+             xmlns:tns="http://www.piat.upm.es/tareaSchema"
+             xsi:schemaLocation="http://www.piat.upm.es/tareaSchema Tarea.xsd">
+
+  <tns:descripcionTarea>Una cadena de caracteres que describa la idea</tns:descripcionTarea>
+  <tns:espacioTarea>
+    <tns:imagen idImagen="IMAG001">
+        <tns:datosImagen>
+            <tns:dimensiones>
+                <tns:ancho>87.2</tns:ancho>
+                <tns:alto>82.9</tns:alto>
+            </tns:dimensiones>
+            <tns:descripcion>Elemento opcional que describe la imagen</tns:descripcion>
+        </tns:datosImagen>
+        <tns:contenido formato="image/png"></tns:contenido>
+    </tns:imagen>
+  </tns:espacioTarea>
+</tns:tarea>

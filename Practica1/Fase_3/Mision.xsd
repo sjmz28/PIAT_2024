@@ -10,9 +10,9 @@
     xmlns:tar="http://www.piat.upm.es/tareaSchema"
     elementFormDefault="qualified">
 
-    <xsd:import namespace="http://www.piat.upm.es/responsableSchema" schemaLocation="../Fase_2/Responsable.xsd"/>
-    <xsd:import namespace="http://www.piat.upm.es/robotSchema" schemaLocation="../Fase_2/Robot.xsd"/>
-    <xsd:import namespace="http://www.piat.upm.es/tareaSchema" schemaLocation="../Fase_2/Tarea.xsd"/>
+    <xsd:import namespace="http://www.piat.upm.es/responsableSchema" schemaLocation="Responsable.xsd"/>
+    <xsd:import namespace="http://www.piat.upm.es/robotSchema" schemaLocation="Robot.xsd"/>
+    <xsd:import namespace="http://www.piat.upm.es/tareaSchema" schemaLocation="Tarea.xsd"/>
 
     <xsd:element name="mision" type="tns:misionType"/>
 
@@ -37,6 +37,12 @@
                         <xsd:element name="responsable" type="res:responsableType" minOccurs="1" maxOccurs="unbounded"/>
                     </xsd:sequence>
                 </xsd:complexType>
+                <!--  RESPONSABLE KEY-->
+                <xsd:key name="responsableKey">
+                    <xsd:selector xpath="./tns:responsable"/>
+                    <xsd:field xpath="@identificadorFiscal"/>
+                </xsd:key>
+                <!-- *********************-->
             </xsd:element>
             <xsd:element name="robots" minOccurs="1">
                 <xsd:complexType>
@@ -44,6 +50,12 @@
                         <xsd:element name="robot" type="rob:robotType" minOccurs="1" maxOccurs="unbounded"/>
                     </xsd:sequence>
                 </xsd:complexType>
+                <!--  ROBOT KEY-->
+                <xsd:key name="robotKey">
+                    <xsd:selector xpath="./tns:robot"/>
+                    <xsd:field xpath="@idRobot"/>
+                </xsd:key>
+                <!-- *********************-->
             </xsd:element>
             <xsd:element name="tareas" minOccurs="1">
                 <xsd:complexType>
@@ -51,14 +63,32 @@
                         <xsd:element name="tarea" type="tar:tareaType" minOccurs="1" maxOccurs="unbounded"/>
                     </xsd:sequence>
                 </xsd:complexType>
+                <!--  TAREA KEY-->
+                <xsd:key name="tareaKey">
+                    <xsd:selector xpath="./tns:tarea"/>
+                    <xsd:field xpath="@idTarea"/>
+                </xsd:key>
             </xsd:element>
             <xsd:element name="robotTarea" minOccurs="1" maxOccurs="unbounded">
                 <xsd:complexType>
                     <xsd:sequence>
-                        <xsd:element name="tareaRealizada" type="tar:idTareaType"/> <!-- KEY REF-->
+                        <xsd:element name="tareaRealizada" type="tar:idTareaType">
+                            
+                        </xsd:element> 
                         <xsd:element name="robotasignado" type="rob:idRobotType" minOccurs="1" maxOccurs="10"/>
                     </xsd:sequence>
                 </xsd:complexType>
+                <!-- KEY REF-->
+                <xsd:keyref name="tareaRef" refer="tns:tareaKey">
+                    <xsd:selector xpath="./tns:tareaRealizada"/>
+                    <xsd:field xpath="@idTarea"/>
+                </xsd:keyref>
+
+                <xsd:keyref name="robotRef" refer="rob:robotKey">
+                    <xsd:selector xpath="./tns:robotasignado"/>
+                    <xsd:field xpath="@idRobot"/>
+                </xsd:keyref>
+                <!-- **********-->
             </xsd:element>
         </xsd:sequence>
         <xsd:attribute name="idMision" type="tns:idMisionType" use="required"/>

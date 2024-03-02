@@ -13,12 +13,12 @@
         </xsd:key>
 
         <xsd:key name="idSensorKey">
-            <xsd:selector xpath="./tns:sensores/tns:sensor"/>
+            <xsd:selector xpath=".//tns:sensores/tns:sensor"/>
             <xsd:field xpath="@idSensor"/>
         </xsd:key>
 
         <xsd:key name="idActuadorKey">
-            <xsd:selector xpath="./tns:actuadores/tns:actuador"/>
+            <xsd:selector xpath=".//tns:actuadores/tns:actuador"/>
             <xsd:field xpath="@idActuador"/>
         </xsd:key>
         <!--  fin KEYs -->

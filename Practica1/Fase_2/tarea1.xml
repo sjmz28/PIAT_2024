@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:tarea idTarea="JKILH-9875" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             
+             xmlns:tns="http://www.piat.upm.es/tareaSchema"
+             xsi:schemaLocation="http://www.piat.upm.es/tareaSchema Tarea.xsd">
+          
+  <tns:descripcionTarea>Una cadena de caracteres que describa la idea</tns:descripcionTarea>
+  <tns:espacioTarea>
+    <tns:volumenEspacio>
+        <tns:centro>
+            <tns:longitud>87</tns:longitud>
+            <tns:latitud>87</tns:latitud>
+            <tns:altitud>967</tns:altitud>
+        </tns:centro>
+        <tns:forma>círculo</tns:forma>
+        <tns:altura>878cm</tns:altura>
+    </tns:volumenEspacio>
+  </tns:espacioTarea>
+</tns:tarea>

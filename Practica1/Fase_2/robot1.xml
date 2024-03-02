@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:robot idRobot="id-899"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             
+             xmlns:tns="http://www.piat.upm.es/robotSchema"
+             xsi:schemaLocation="http://www.piat.upm.es/robotSchema Robot.xsd">
+
+
+
+
+    <tns:funcionalidad>La funcionalidad de este robot es ser util pero la cadema de caracteres 
+        debe de ser como maximo de 256 caracteres luego voy a poner muchos para ver si se cumple
+        *************************************************************************
+    </tns:funcionalidad>
+    <tns:sistemaLimpieza>ultravioleta</tns:sistemaLimpieza> <!-- ozono, vapor o ultravioleta-->
+    <tns:homologaciones>homologacion1 homologacion2 homologacion3 homologacion4 homologacion5
+                        homo6 homo7 homo8 homo9 homo10 
+    </tns:homologaciones>
+    <tns:sensores>
+        <tns:numeroSensores>2</tns:numeroSensores>
+        <tns:sensor idSensor="ab1CD">
+            <tns:patogeno>patogeno1</tns:patogeno>
+            <tns:densidad>5000 bacterias/m2</tns:densidad>
+        </tns:sensor>
+        <tns:sensor idSensor="ab1CX">
+            <tns:patogeno>patogeno2</tns:patogeno>
+            <tns:densidad>5080 bacterias/m3</tns:densidad>
+        </tns:sensor>
+    </tns:sensores>
+    <tns:actuadores>
+        <tns:numeroActuadores>1</tns:numeroActuadores>
+        <tns:actuador idActuador="AC09">
+            <tns:descripcion>esto es una descripcion</tns:descripcion>
+            <tns:alcanceActuacion>
+                <tns:tipoActuacion>Texto qeu especifica la actuacion</tns:tipoActuacion>
+                <tns:fechasActuacion>2024-01-02T00:00:01 2024-01-02T00:10:02 2024-03-02T00:00:03
+                00:00:04 00:00:05 00:00:06 00:00:07 00:00:08 00:00:09 00:00:10
+                </tns:fechasActuacion>
+            </tns:alcanceActuacion>
+        </tns:actuador>
+    </tns:actuadores>
+</tns:robot>

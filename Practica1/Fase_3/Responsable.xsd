@@ -8,8 +8,8 @@
     
     <xsd:element name="responsable" type="tns:responsableType">
         <xsd:key name="responsableKey">
-            <xsd:selector xpath="."/> <!-- Selecciona el elemento padre -->
-            <xsd:field xpath="@identificadorFiscal"/> <!-- Selecciona el valor del atributo identificadorFisal -->
+            <xsd:selector xpath=".//tns:responsable"/>
+            <xsd:field xpath="@identificadorFiscal"/>
         </xsd:key>
     </xsd:element>
 
