@@ -61,7 +61,7 @@
                 </xsd:complexType>
             </xsd:element>
         </xsd:sequence>
-        <xsd:attribute name="idMision" type="tns:idMisionType"/>
+        <xsd:attribute name="idMision" type="tns:idMisionType" use="required"/>
     </xsd:complexType>
 
 <!-- ************************************************************************-->
@@ -69,7 +69,7 @@
 
     <xsd:simpleType name="idMisionType">
         <xsd:restriction base="xsd:string">
-            <xsd:pattern value="MIS(0-9){3}"/>
+            <xsd:pattern value="MIS[0-9]{3}"/>
         </xsd:restriction>
     </xsd:simpleType>
 

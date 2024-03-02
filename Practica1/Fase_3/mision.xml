@@ -1,20 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tns:mision  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<tns:mision idMision="MIS009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:tar="http://www.piat.upm.es/tareaSchema"
+             xmlns:rob="http://www.piat.upm.es/robotSchema"
+             xmlns:res="http://www.piat.upm.es/responsableSchema"
              
              xmlns:tns="http://www.piat.upm.es/misionSchema"
-             xsi:schemaLocation="http://www.piat.upm.es/misionSchema ../Fase_2/Mision.xsd">
+             xsi:schemaLocation="http://www.piat.upm.es/misionSchema Mision.xsd">
 
     <tns:fecha>2024-10-10</tns:fecha>
     <tns:idioma lang="es"/>
-    <tns:descripcion>La mision consiste en la limpieza de la estacion espacial internacional</tns:descripcion>
+    <tns:descripcion>Mision: <tns:key> higienizar </tns:key> los <tns:key> quirófanos </tns:key> existentes 
+        en el <tns:key> Hospital Universitario </tns:key> para conseguir <tns:key> eliminar 
+        bacterias </tns:key>
+    </tns:descripcion>
+
+    <!-- **********************RESPONSABLES*********************** -->
+
     <tns:responsables>
-        <tns:responsable>
-            <colaboradores>
-                <colaborador>
-                    
-                </colaborador>
-            </colaboradores>
-            
+        <tns:responsable identificadorFisal="L8473678L">
+            <res:colaboradores>
+                <res:colaborador>Sara</res:colaborador>
+                <res:colaborador>Sara Jimenez </res:colaborador>
+                <res:colaborador>Sara Jimenez MUñoz</res:colaborador>
+                <res:departamento>NombreDepartamento1</res:departamento>
+                <res:departamento>NombreDepartamento2</res:departamento>
+            </res:colaboradores>
+            <res:contacto>
+                <res:email>correo@gmail.com</res:email>
+                <res:uri>https://www.paginaweb.com</res:uri>
+            </res:contacto>
+
+        </tns:responsable>
+        <tns:responsable identificadorFisal="L9877392L">
+            <res:colaboradores>
+                <res:colaborador>Nombre3</res:colaborador>
+                <res:departamento>NombreDepartamento3</res:departamento>
+                <res:departamento>NombreDepartamento4</res:departamento>
+            </res:colaboradores>
+            <res:contacto>
+                <res:email>correo2@gmail.com</res:email>
+            </res:contacto>
         </tns:responsable>
     </tns:responsables>
+        <!-- **********************ROBOTS*********************** -->
+    <tns:robots>
+        <tns:robot idRobot="id-111" >
+            <rob:funcionalidad>La funcionalidad de este robot es ser util pero la cadema de caracteres 
+        debe de ser como maximo de 256 caracteres luego voy a poner muchos * para ver si se cumple
+        ***************************************************************
+            </rob:funcionalidad>
+            <rob:sistemaLimpieza>ultravioleta</rob:sistemaLimpieza> <!-- ozono, vapor o ultravioleta-->
+            <rob:homologaciones>homologacion1 homologacion2 homologacion3 homologacion4 homologacion5
+                                homo6 homo7 homo8 homo9 homo10 
+            </rob:homologaciones>
+            <rob:sensores>
+                <rob:numeroSensores>2</rob:numeroSensores>
+                <rob:sensor idSensor="ab1CD">
+                    <rob:patogeno>patogeno1</rob:patogeno>
+                    <rob:densidad>5000 bacterias/m2</rob:densidad>
+                </rob:sensor>
+                <rob:sensor idSensor="ab1CZ">
+                    <rob:patogeno>patogeno2</rob:patogeno>
+                    <rob:densidad>5080 bacterias/m3</rob:densidad>
+                </rob:sensor>
+            </rob:sensores>
+            <rob:actuadores>
+                <rob:numeroActuadores>1</rob:numeroActuadores>
+                <rob:actuador idActuador="AC09">
+                    <rob:descripcion>esto es una descripcion</rob:descripcion>
+                    <rob:alcanceActuacion>
+                        <rob:tipoActuacion>Texto qeu especifica la actuacion</rob:tipoActuacion>
+                        <rob:fechasActuacion>2024-01-02T00:00:01 2024-01-02T00:10:02 2024-03-02T00:00:03
+                        00:00:04 00:00:05 00:00:06 00:00:07 00:00:08 00:00:09 00:00:10
+                        </rob:fechasActuacion>
+                    </rob:alcanceActuacion>
+                </rob:actuador>
+            </rob:actuadores>
+        </tns:robot>
+
+        <tns:robot idRobot="id-222">
+            <rob:funcionalidad>La funcionalidad de este robot es ser cute</rob:funcionalidad>
+            <rob:sistemaLimpieza>ozono</rob:sistemaLimpieza>
+            <rob:homologaciones>homologacion1 homologacion2 homologacion3</rob:homologaciones>
+            <rob:sensores>
+                <rob:numeroSensores>1</rob:numeroSensores>
+                <rob:sensor idSensor="sj2MG">
+                    <rob:patogeno>patogeno1</rob:patogeno>
+                    <rob:densidad>5080 bacterias/m3</rob:densidad>
+                </rob:sensor>
+            </rob:sensores>
+            <rob:actuadores>
+                <rob:numeroActuadores>7</rob:numeroActuadores>
+                <rob:actuador idActuador="JH78">
+                    <rob:descripcion>esto es una descripcion</rob:descripcion>
+                    <rob:alcanceActuacion>
+                        <rob:fechasActuacion>
+                        2024-01-01T00:00:01 2024-01-01T00:10:02 2024-03-01T00:00:03
+                        00:00:04 00:00:05 00:00:06 00:00:07 00:00:08 00:00:09 00:00:10
+                        </rob:fechasActuacion>
+                        <rob:tipoActuacion>Texto qeu especifica la actuacion</rob:tipoActuacion>
+                    </rob:alcanceActuacion>
+                </rob:actuador>
+                <rob:actuador idActuador="JK92">
+                    <rob:descripcion>esto es una descripcion2</rob:descripcion>
+                    <rob:alcanceActuacion>
+                        <rob:fechasActuacion>
+                        00:00:02 00:00:03 00:00:04 00:00:05 00:00:06 00:00:07 00:00:08 00:00:09 00:00:10
+                        </rob:fechasActuacion>
+                        <rob:tipoActuacion>Esto es un texro descriptivo del funcionamiento</rob:tipoActuacion>
+                    </rob:alcanceActuacion>
+                </rob:actuador>
+            </rob:actuadores>
+        </tns:robot>
+    </tns:robots>
+    <!-- **********************TAREAS*********************** -->
+    <tns:tareas>
+        <tns:tarea idTarea="AAAAA-0000">
+            <tar:descripcionTarea>Una cadena de caracteres que describa la idea</tar:descripcionTarea>
+            <tar:espacioTarea>
+                <tar:volumenEspacio>
+                    <tar:centro>
+                        <tar:longitud>87</tar:longitud>
+                        <tar:latitud>87</tar:latitud>
+                        <tar:altitud>967</tar:altitud>
+                    </tar:centro>
+                    <tar:forma>círculo</tar:forma>
+                    <tar:altura>878cm</tar:altura>
+                </tar:volumenEspacio>
+            </tar:espacioTarea>
+        </tns:tarea>
+
+        <tns:tarea idTarea="BBBBB-1111">
+            <tar:descripcionTarea>Una cadena de caracteres que describa la idea</tar:descripcionTarea>
+            <tar:espacioTarea>
+                <tar:puntosEspacio>
+                <tar:punto>
+                    <tar:latitud>82</tar:latitud>
+                    <tar:longitud>82</tar:longitud>
+                    <tar:altitud>982</tar:altitud>
+                </tar:punto>
+
+                <tar:punto>
+                    <tar:latitud>82</tar:latitud>
+                    <tar:longitud>82</tar:longitud>
+                    <tar:altitud>982</tar:altitud>
+                </tar:punto>
+
+                <tar:punto>
+                    <tar:latitud>82</tar:latitud>
+                    <tar:longitud>82</tar:longitud>
+                    <tar:altitud>982</tar:altitud>
+                </tar:punto>
+                <tar:altura>9293cm</tar:altura>
+                </tar:puntosEspacio>
+            </tar:espacioTarea>
+        </tns:tarea>
+        <tns:tarea idTarea="CCCCC-2222">
+            <tar:descripcionTarea>Una cadena de caracteres que describa la idea</tar:descripcionTarea>
+            <tar:espacioTarea>
+                <tar:imagen idImagen="IMAG001">
+                    <tar:datosImagen>
+                        <tar:dimensiones>
+                            <tar:ancho>87.2</tar:ancho>
+                            <tar:alto>82.9</tar:alto>
+                        </tar:dimensiones>
+                        <tar:descripcion>Elemento opcional que describe la imagen</tar:descripcion>
+                    </tar:datosImagen>
+                    <tar:contenido formato="image/png"></tar:contenido>
+                </tar:imagen>
+            </tar:espacioTarea>
+        </tns:tarea>
+    </tns:tareas>
+    
+    <!-- **********************ROBOT-TAREA*********************** -->
+    <tns:robotTarea>
+        <tns:tareaRealizada>AAAAA-0000</tns:tareaRealizada>
+        <tns:robotasignado>id-111</tns:robotasignado>
+        <tns:robotasignado>id-222</tns:robotasignado>
+    </tns:robotTarea>
+
+    <tns:robotTarea>
+        <tns:tareaRealizada>BBBBB-1111</tns:tareaRealizada>
+        <tns:robotasignado>id-222</tns:robotasignado>
+    </tns:robotTarea>
+
+    <tns:robotTarea>
+        <tns:tareaRealizada>CCCCC-2222</tns:tareaRealizada>
+        <tns:robotasignado>id-111</tns:robotasignado>
+    </tns:robotTarea>
+        
+
 </tns:mision>

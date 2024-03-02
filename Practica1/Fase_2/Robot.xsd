@@ -29,7 +29,7 @@
                 </xsd:complexType>
             </xsd:element>
         </xsd:sequence>
-        <xsd:attribute name="idRobot" type="tns:idRobotType"/>
+        <xsd:attribute name="idRobot" type="tns:idRobotType" use="required"/>
     </xsd:complexType>
 
 <!-- *************** Tipos ***************-->

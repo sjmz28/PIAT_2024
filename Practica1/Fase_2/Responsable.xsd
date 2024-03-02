@@ -30,7 +30,7 @@
                 </xsd:complexType>
             </xsd:element>
         </xsd:all>
-        <xsd:attribute name="identificadorFisal" type="tns:identificadorFisalType"/>
+        <xsd:attribute name="identificadorFisal" type="tns:identificadorFisalType" use="required"/>
     </xsd:complexType>
 
 <!-- ************************************* TIPOS *********************************************-->
