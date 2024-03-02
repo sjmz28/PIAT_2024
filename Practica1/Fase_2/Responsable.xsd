@@ -6,7 +6,12 @@
     elementFormDefault="qualified">
 
     
-    <xsd:element name="responsable" type="tns:responsableType"/>
+    <xsd:element name="responsable" type="tns:responsableType">
+        <xsd:key name="responsableKey">
+            <xsd:selector xpath="./tns:responsable"/> <!-- Selecciona el elemento padre -->
+            <xsd:field xpath="@identificadorFiscal"/> <!-- Selecciona el valor del atributo identificadorFisal -->
+        </xsd:key>
+    </xsd:element>
 
     <xsd:complexType name="responsableType">
         <xsd:all> <!-- no importa el orden de aparicion -->
@@ -24,19 +29,27 @@
             <xsd:element name="contacto">
                 <xsd:complexType>
                     <xsd:all>
-                        <xsd:element name="email" type="xsd:string" minOccurs="1"/> <!-- obligatorio -->
+                        <xsd:element name="email" type="tns:emailType" minOccurs="1"/> <!-- obligatorio -->
                         <xsd:element name="uri" type="xsd:anyURI" minOccurs="0" /> <!-- opcional -->
                     </xsd:all>
                 </xsd:complexType>
             </xsd:element>
         </xsd:all>
-        <xsd:attribute name="identificadorFisal" type="tns:identificadorFisalType" use="required"/>
+        <xsd:attribute name="identificadorFiscal" type="tns:identificadorFiscalType" use="required"/>
+        
     </xsd:complexType>
+    
 
 <!-- ************************************* TIPOS *********************************************-->
-    <xsd:simpleType name="identificadorFisalType">
+    <xsd:simpleType name="identificadorFiscalType">
         <xsd:restriction base="xsd:string">
             <xsd:pattern value="[A-Z][0-9]{7}[A-Z]"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="emailType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[^@]+@[^\.]+\..+"/>
         </xsd:restriction>
     </xsd:simpleType>
 

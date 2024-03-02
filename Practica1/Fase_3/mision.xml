@@ -17,7 +17,7 @@
     <!-- **********************RESPONSABLES*********************** -->
 
     <tns:responsables>
-        <tns:responsable identificadorFisal="L8473678L">
+        <tns:responsable identificadorFiscal="X9999999X">
             <res:colaboradores>
                 <res:colaborador>Sara</res:colaborador>
                 <res:colaborador>Sara Jimenez </res:colaborador>
@@ -31,14 +31,14 @@
             </res:contacto>
 
         </tns:responsable>
-        <tns:responsable identificadorFisal="L9877392L">
+        <tns:responsable identificadorFiscal="X9999999Z">
             <res:colaboradores>
                 <res:colaborador>Nombre3</res:colaborador>
                 <res:departamento>NombreDepartamento3</res:departamento>
                 <res:departamento>NombreDepartamento4</res:departamento>
             </res:colaboradores>
             <res:contacto>
-                <res:email>correo2@gmail.com</res:email>
+                <res:email>hola@gmail.com</res:email>
             </res:contacto>
         </tns:responsable>
     </tns:responsables>
@@ -59,7 +59,7 @@
                     <rob:patogeno>patogeno1</rob:patogeno>
                     <rob:densidad>5000 bacterias/m2</rob:densidad>
                 </rob:sensor>
-                <rob:sensor idSensor="ab1CZ">
+                <rob:sensor idSensor="ab1CD">
                     <rob:patogeno>patogeno2</rob:patogeno>
                     <rob:densidad>5080 bacterias/m3</rob:densidad>
                 </rob:sensor>
@@ -91,7 +91,7 @@
             </rob:sensores>
             <rob:actuadores>
                 <rob:numeroActuadores>7</rob:numeroActuadores>
-                <rob:actuador idActuador="JH78">
+                <rob:actuador idActuador="AB12">
                     <rob:descripcion>esto es una descripcion</rob:descripcion>
                     <rob:alcanceActuacion>
                         <rob:fechasActuacion>
@@ -101,7 +101,7 @@
                         <rob:tipoActuacion>Texto qeu especifica la actuacion</rob:tipoActuacion>
                     </rob:alcanceActuacion>
                 </rob:actuador>
-                <rob:actuador idActuador="JK92">
+                <rob:actuador idActuador="AB12">
                     <rob:descripcion>esto es una descripcion2</rob:descripcion>
                     <rob:alcanceActuacion>
                         <rob:fechasActuacion>
@@ -166,17 +166,17 @@
                         </tar:dimensiones>
                         <tar:descripcion>Elemento opcional que describe la imagen</tar:descripcion>
                     </tar:datosImagen>
-                    <tar:contenido formato="image/png"></tar:contenido>
+                    <tar:contenido formato="image/png"/>
                 </tar:imagen>
             </tar:espacioTarea>
         </tns:tarea>
     </tns:tareas>
-    
+
     <!-- **********************ROBOT-TAREA*********************** -->
     <tns:robotTarea>
         <tns:tareaRealizada>AAAAA-0000</tns:tareaRealizada>
         <tns:robotasignado>id-111</tns:robotasignado>
-        <tns:robotasignado>id-222</tns:robotasignado>
+        <tns:robotasignado>id-202</tns:robotasignado>
     </tns:robotTarea>
 
     <tns:robotTarea>
@@ -185,7 +185,7 @@
     </tns:robotTarea>
 
     <tns:robotTarea>
-        <tns:tareaRealizada>CCCCC-2222</tns:tareaRealizada>
+        <tns:tareaRealizada>CCCCC-2022</tns:tareaRealizada>
         <tns:robotasignado>id-111</tns:robotasignado>
     </tns:robotTarea>
         

@@ -13,6 +13,7 @@
             <xsd:element name="espacioTarea" type="tns:espacioTareaType" minOccurs="1"></xsd:element>
         </xsd:sequence>
         <xsd:attribute name="idTarea" type="tns:idTareaType" use="required"/>
+        
     </xsd:complexType>
 
 <!-- ************************* TIPOS **************************-->

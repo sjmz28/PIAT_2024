@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tns:responsable  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<tns:responsable identificadorFiscal="L9877392L"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              
              xmlns:tns="http://www.piat.upm.es/responsableSchema"
              xsi:schemaLocation="http://www.piat.upm.es/responsableSchema ../Fase_2/Responsable.xsd">
