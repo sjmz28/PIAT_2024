@@ -36,12 +36,12 @@
 
         <!--  +++++++++ KEY REF ++++++++++++ -->
         <xsd:keyref name="robotAsignado" refer="tns:robotKey">
-            <xsd:selector xpath="./tns:robotTarea/tns:robotsAsignados"/>
-            <xsd:field xpath="tns:robotAsignado"/>
+            <xsd:selector xpath="./tns:robotTarea/tns:robotsAsignados/tns:robotAsignado"/> <!-- MUY IMPORTANTE QUE ESTE TODO ARRIBA-->
+            <xsd:field xpath="."/>
         </xsd:keyref>
         <xsd:keyref name="tareaRealizada" refer="tns:tareaKey">
-            <xsd:selector xpath="./tns:robotTarea"/>
-            <xsd:field xpath="tns:tareaRealizada"/>
+            <xsd:selector xpath="./tns:robotTarea/tns:tareaRealizada"/> <!-- MUY IMPORTANTE QUE ESTE TODO ARRIBA-->
+            <xsd:field xpath="."/>
         </xsd:keyref>
         <!-- +++++++++++++++++++++++++++++++ -->
 
