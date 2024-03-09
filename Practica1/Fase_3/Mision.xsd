@@ -16,28 +16,28 @@
 
     <xsd:element name="mision" type="tns:misionType">
        <!--  RESPONSABLE KEY-->
-        <xsd:key name="responsableKey">
+        <xsd:unique name="responsableKey">
         <xsd:selector xpath="./tns:responsables/res:responsable"/>
         <xsd:field xpath="@identificadorFiscal"/>
-        </xsd:key>
+        </xsd:unique>
         <!-- *********************-->
         <!--  ROBOT KEY-->
-        <xsd:key name="robotKey">
+        <xsd:unique name="robotKey">
             <xsd:selector xpath="./tns:robots/rob:robot"/>
             <xsd:field xpath="@idRobot"/>
-        </xsd:key>
+        </xsd:unique>
         <!-- *********************-->
         <!--  TAREA KEY-->
-        <xsd:key name="tareaKey">
+        <xsd:unique name="tareaKey">
             <xsd:selector xpath="./tns:tareas/tar:tarea"/>
             <xsd:field xpath="@idTarea"/>
-        </xsd:key>
+        </xsd:unique>
         <!-- *********************-->
 
         <!--  +++++++++ KEY REF ++++++++++++ -->
         <xsd:keyref name="robotAsignado" refer="tns:robotKey">
-            <xsd:selector xpath="./tns:robotTarea"/>
-            <xsd:field xpath="tns:robotasignado"/>
+            <xsd:selector xpath="./tns:robotTarea/tns:robotsAsignados"/>
+            <xsd:field xpath="tns:robotAsignado"/>
         </xsd:keyref>
         <xsd:keyref name="tareaRealizada" refer="tns:tareaKey">
             <xsd:selector xpath="./tns:robotTarea"/>
@@ -89,10 +89,17 @@
             <xsd:element name="robotTarea" minOccurs="1" maxOccurs="unbounded">
                 <xsd:complexType>
                     <xsd:sequence>
-                        <xsd:element name="tareaRealizada" type="tar:idTareaType">
-                            
-                        </xsd:element> 
-                        <xsd:element name="robotasignado" type="rob:idRobotType" minOccurs="1" maxOccurs="10"/>
+                        <xsd:element name="tareaRealizada" type="tar:idTareaType"/> 
+                       
+                        <xsd:element name="robotsAsignados">
+                            <xsd:complexType>
+                                <xsd:sequence>
+                                    <xsd:choice minOccurs="1" maxOccurs="10">
+                                        <xsd:element name="robotAsignado" type="rob:idRobotType"/>
+                                    </xsd:choice>
+                                </xsd:sequence>
+                            </xsd:complexType>
+                        </xsd:element>
                     </xsd:sequence>
                 </xsd:complexType>
                
