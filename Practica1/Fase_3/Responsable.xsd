@@ -6,12 +6,7 @@
     elementFormDefault="qualified">
 
     
-    <xsd:element name="responsable" type="tns:responsableType">
-        <xsd:key name="responsableKey">
-            <xsd:selector xpath=".//tns:responsable"/>
-            <xsd:field xpath="@identificadorFiscal"/>
-        </xsd:key>
-    </xsd:element>
+    <xsd:element name="responsable" type="tns:responsableType"/>
 
     <xsd:complexType name="responsableType">
         <xsd:all> <!-- no importa el orden de aparicion -->

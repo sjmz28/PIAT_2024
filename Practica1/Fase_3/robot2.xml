@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tns:robot idRobot="id-000" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<tns:robot idRobot="id-222" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              
              xmlns:tns="http://www.piat.upm.es/robotSchema"
              xsi:schemaLocation="http://www.piat.upm.es/robotSchema Robot.xsd">

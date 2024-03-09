@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tns:robot idRobot="id-899"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<tns:robot idRobot="id-111"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              
              xmlns:tns="http://www.piat.upm.es/robotSchema"
              xsi:schemaLocation="http://www.piat.upm.es/robotSchema Robot.xsd">
-
-
-
 
     <tns:funcionalidad>La funcionalidad de este robot es ser util pero la cadema de caracteres 
         debe de ser como maximo de 256 caracteres luego voy a poner muchos para ver si se cumple

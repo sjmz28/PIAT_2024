@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<tns:responsable identificadorFiscal="L9347392L"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<tns:responsable identificadorFiscal="A9999999A"  
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              
              xmlns:tns="http://www.piat.upm.es/responsableSchema"
              xsi:schemaLocation="http://www.piat.upm.es/responsableSchema Responsable.xsd">
