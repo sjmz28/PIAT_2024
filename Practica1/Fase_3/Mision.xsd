@@ -36,9 +36,10 @@
 
         <!--  +++++++++ KEY REF ++++++++++++ -->
         <xsd:keyref name="robotAsignado" refer="tns:robotKey">
-            <xsd:selector xpath="./tns:robotTarea/tns:robotsAsignados/tns:robotAsignado"/> <!-- MUY IMPORTANTE QUE ESTE TODO ARRIBA-->
+            <xsd:selector xpath="./tns:robotTarea/tns:robotAsignado"/> <!-- MUY IMPORTANTE QUE ESTE TODO ARRIBA-->
             <xsd:field xpath="."/>
         </xsd:keyref>
+
         <xsd:keyref name="tareaRealizada" refer="tns:tareaKey">
             <xsd:selector xpath="./tns:robotTarea/tns:tareaRealizada"/> <!-- MUY IMPORTANTE QUE ESTE TODO ARRIBA-->
             <xsd:field xpath="."/>
@@ -90,20 +91,10 @@
                 <xsd:complexType>
                     <xsd:sequence>
                         <xsd:element name="tareaRealizada" type="tar:idTareaType"/> 
-                       
-                        <xsd:element name="robotsAsignados">
-                            <xsd:complexType>
-                                <xsd:sequence>
-                                    <xsd:choice minOccurs="1" maxOccurs="10">
-                                        <xsd:element name="robotAsignado" type="rob:idRobotType"/>
-                                    </xsd:choice>
-                                </xsd:sequence>
-                            </xsd:complexType>
-                        </xsd:element>
+                        <xsd:element name="robotAsignado" type="rob:idRobotType" minOccurs="1" maxOccurs="10"/>  
                     </xsd:sequence>
                 </xsd:complexType>
-               
-            </xsd:element>
+            </xsd:element>       
         </xsd:sequence>
         <xsd:attribute name="idMision" type="tns:idMisionType" use="required"/>
     </xsd:complexType>

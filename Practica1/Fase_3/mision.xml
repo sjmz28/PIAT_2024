@@ -44,26 +44,25 @@
     <!-- **********************ROBOT-TAREA*********************** -->
     <tns:robotTarea>
         <tns:tareaRealizada>AAAAA-0000</tns:tareaRealizada>
-        <tns:robotsAsignados>
+        
             <tns:robotAsignado>id-111</tns:robotAsignado>
             
-        </tns:robotsAsignados>
+       
     </tns:robotTarea>
 
     <tns:robotTarea>
         <tns:tareaRealizada>BBBBB-1111</tns:tareaRealizada>
-        <tns:robotsAsignados>
+       
             <tns:robotAsignado>id-222</tns:robotAsignado>
            
-        </tns:robotsAsignados>
+
     </tns:robotTarea>
 
     <tns:robotTarea>
         <tns:tareaRealizada>CCCCC-2222</tns:tareaRealizada>
-        <tns:robotsAsignados>
-            <tns:robotAsignado>id-111</tns:robotAsignado>
-            <tns:robotAsignado>id-222</tns:robotAsignado>
-        </tns:robotsAsignados>
+        <tns:robotAsignado>id-111</tns:robotAsignado>
+        <tns:robotAsignado>id-222</tns:robotAsignado>
+      
     </tns:robotTarea>
         
 
