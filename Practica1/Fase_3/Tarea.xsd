@@ -145,12 +145,17 @@
             </xsd:simpleContent>
         </xsd:complexType>
 
-                <xsd:simpleType name="formatoType">
-                    <xsd:restriction base="xsd:token">
-                        <xsd:enumeration value="image/gif"/>
-                        <xsd:enumeration value="image/jpeg"/>
-                        <xsd:enumeration value="image/png"/>
-                    </xsd:restriction>
-                </xsd:simpleType>
+        <!-- +++++ GESTION MEDIANTE ANOTACIONES +++++ -->
+        <xsd:notation name="gif" public="image/gif" system="paint.exe"/>
+        <xsd:notation name="jpeg" public="image/jpeg" system="paint.exe"/>
+        <xsd:notation name="png" public="image/png" system="paint.exe"/>
+
+        <xsd:simpleType name="formatoType">
+            <xsd:restriction base="xsd:NOTATION">
+                <xsd:enumeration value="tns:gif"/>
+                <xsd:enumeration value="tns:jpeg"/>
+                <xsd:enumeration value="tns:png"/>
+            </xsd:restriction>
+        </xsd:simpleType>
 
 </xsd:schema>
