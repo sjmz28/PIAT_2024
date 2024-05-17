@@ -1,0 +1,6 @@
+2020-02-21 11:02:25 security-out2 [9701668C]: connect from: msa2.etsist.upm.es
+2020-02-21 11:02:25 security-out2 [9701668C]: message from: <susana.bravo@etsist.upm.es> to: <sara.cano@turbinto.tw> message-id: <85083425@haring.etsist.upm.es> size: 23047404
+2020-02-21 11:02:49 security-out2 [9701668C]: status=2.0.0 (accepted)
+2020-02-21 11:02:49 security-out2 [9701668C]: SEC-PASSED: security-antivirus: CLEAN security-antispam: HAM
+2020-02-21 11:02:52 security-out2 [9701668C]: relay to: smtp-out1.etsist.upm.es
+2020-02-21 11:02:59 security-out2 [9701668C]: delivered, dsn: 2.0.0, queued as: 64807E77

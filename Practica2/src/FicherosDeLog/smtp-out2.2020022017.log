@@ -1,0 +1,5 @@
+2020-02-20 17:02:34 smtp-out2 [4417E7A8]: connect from: security-out1.etsist.upm.es
+2020-02-20 17:02:34 smtp-out2 [4417E7A8]: message from: <benito.carrillo@etsist.upm.es> to: <church@etsist.upm.es> message-id: <79891831@delacroix.etsist.upm.es> size: 27650161
+2020-02-20 17:02:48 smtp-out2 [4417E7A8]: status=2.0.0 (accepted)
+2020-02-20 17:02:49 smtp-out2 [4417E7A8]: relay to: smtp5.etsist.upm.es
+2020-02-20 17:02:57 smtp-out2 [4417E7A8]: delivered, dsn: 2.0.0, queued as: 22EE2EB6

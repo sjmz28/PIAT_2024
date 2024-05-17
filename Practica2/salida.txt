@@ -1,0 +1,243 @@
+Comienza la ejecución de la aplicación
+
+Lanzar los hilos trabajadores que se encargarán de procesar los ficheros de log.
+Se va a crear un pool de hilos para que como máximo haya 8 hilos en ejecución simultáneamente ......................................................................................................
+Se han lanzado 102 trabajadores
+	Han terminado 5. Faltan 97.
+	Han terminado 8. Faltan 94.
+	Han terminado 13. Faltan 89.
+	Han terminado 14. Faltan 88.
+	Han terminado 15. Faltan 87.
+	Han terminado 21. Faltan 81.
+	Han terminado 23. Faltan 79.
+	Han terminado 23. Faltan 79.
+	Han terminado 23. Faltan 79.
+	Han terminado 26. Faltan 76.
+	Han terminado 29. Faltan 73.
+	Han terminado 29. Faltan 73.
+	Han terminado 33. Faltan 69.
+	Han terminado 35. Faltan 67.
+	Han terminado 38. Faltan 64.
+	Han terminado 39. Faltan 63.
+	Han terminado 41. Faltan 61.
+	Han terminado 45. Faltan 57.
+	Han terminado 46. Faltan 56.
+	Han terminado 46. Faltan 56.
+	Han terminado 48. Faltan 54.
+	Han terminado 52. Faltan 50.
+	Han terminado 52. Faltan 50.
+	Han terminado 55. Faltan 47.
+	Han terminado 56. Faltan 46.
+	Han terminado 57. Faltan 45.
+	Han terminado 58. Faltan 44.
+	Han terminado 58. Faltan 44.
+	Han terminado 60. Faltan 42.
+	Han terminado 64. Faltan 38.
+	Han terminado 64. Faltan 38.
+	Han terminado 66. Faltan 36.
+	Han terminado 68. Faltan 34.
+	Han terminado 69. Faltan 33.
+	Han terminado 76. Faltan 26.
+	Han terminado 77. Faltan 25.
+	Han terminado 79. Faltan 23.
+	Han terminado 83. Faltan 19.
+	Han terminado 83. Faltan 19.
+	Han terminado 87. Faltan 15.
+	Han terminado 89. Faltan 13.
+	Han terminado 90. Faltan 12.
+	Han terminado 90. Faltan 12.
+	Han terminado 91. Faltan 11.
+	Han terminado 93. Faltan 9.
+	Han terminado 96. Faltan 6.
+	Han terminado 96. Faltan 6.
+	Han terminado 98. Faltan 4.
+	Han terminado 99. Faltan 3.
+	Han terminado 101. Faltan 1.
+
+Estadísticos generales:
+	Servidores
+	Se han procesado 102 ficheros
+	Se han procesado 6674731 trazas
+	Se han encontrado 4 trazas no válidas
+
+Estadísticos agregados por tipo de servidor y día:
+	security-in:
+		2020-02-20:
+			code 5.1.1: 536
+			code 4.3.2: 476
+			msgINFECTED: 4293
+			msgBlocked: 4293
+			msgSPAM: 29080
+			msgPassed: 48454
+		2020-02-21:
+			code 4.3.2: 353
+			code 5.1.1: 425
+			msgINFECTED: 3130
+			msgBlocked: 3130
+			msgSPAM: 22169
+			msgPassed: 36612
+		2020-02-22:
+			code 4.3.2: 383
+			code 5.1.1: 429
+			msgINFECTED: 3219
+			msgBlocked: 3219
+			msgSPAM: 21986
+			msgPassed: 36546
+	smtp-out:
+		2020-02-20:
+			code 4.3.2: 379
+			msgOut: 35976
+		2020-02-21:
+			code 4.3.2: 382
+			msgOut: 36128
+		2020-02-22:
+			code 4.3.2: 345
+			msgOut: 35923
+	msa:
+		2020-02-20:
+			code 4.3.2: 356
+		2020-02-21:
+			code 4.3.2: 377
+		2020-02-22:
+			code 4.3.2: 361
+	security-out:
+		2020-02-20:
+			code 4.3.2: 372
+			msgINFECTED: 771
+			msgBlocked: 1507
+			msgPassed: 35584
+		2020-02-21:
+			code 4.3.2: 385
+			msgINFECTED: 738
+			msgBlocked: 1478
+			msgPassed: 35722
+		2020-02-22:
+			code 4.3.2: 329
+			msgINFECTED: 802
+			msgBlocked: 1500
+			msgPassed: 35465
+	user-mailbox:
+		2020-02-20:
+			code 4.3.2: 167
+		2020-02-21:
+			code 4.3.2: 167
+		2020-02-22:
+			code 4.3.2: 194
+	smtp-in:
+		2020-02-20:
+			code 4.3.2: 401
+			code 5.1.1: 412
+			msgIn: 40203
+		2020-02-21:
+			code 4.3.2: 390
+			code 5.1.1: 425
+			msgIn: 40201
+		2020-02-22:
+			code 4.3.2: 367
+			code 5.1.1: 429
+			msgIn: 40176
+
+Usuarios que han enviado más de 500 mensajes:
+		alberto.gallego: 1335
+		alfonso.navarro: 875
+		alfonso.santana: 605
+		amalia.izquierdo: 633
+		amalia.padilla: 872
+		amalia.pons: 1291
+		ana.mateos: 1092
+		anita.hidalgo: 868
+		antonia.ballesteros: 614
+		antonio.acosta: 1244
+		armando.merino: 635
+		armando.rodrigo: 628
+		arturo.campos: 727
+		arturo.conde: 509
+		benito.carrillo: 1093
+		berta.soto: 620
+		cacho.palacios: 1092
+		carla.palacios: 1344
+		carlota.benito: 719
+		carlota.cabrera: 1250
+		carmen.molina: 1306
+		catalina.cabrera: 718
+		catalina.pardo: 1098
+		clara.reyes: 1313
+		claudio.sanz: 1345
+		clemente.alonso: 1291
+		clemente.manzano: 1309
+		cristina.gracia: 868
+		cristobal.blanco: 1073
+		david.aranda: 1236
+		dolores.medina: 513
+		dorotea.aguilar: 613
+		elena.moya: 1341
+		eloisa.valero: 1348
+		emilia.blanco: 794
+		emilia.montero: 1283
+		ernesto.quintana: 1305
+		esteban.trujillo: 898
+		ester.bravo: 647
+		fernando.salas: 712
+		francisca.montes: 504
+		francisca.sierra: 863
+		gabriel.casas: 914
+		gabriel.serra: 525
+		gloria.herrero: 1392
+		gonzalo.cuesta: 1294
+		gonzalo.gracia: 1074
+		graciela.velasco: 856
+		gustavo.abad: 695
+		gustavo.arroyo: 1318
+		gustavo.serrano: 1057
+		homero.moreno: 1347
+		horacio.soler: 864
+		ignacio.vidal: 671
+		irene.villar: 606
+		isabel.bermejo: 717
+		isabela.camacho: 849
+		isabela.conde: 671
+		jaime.rico: 529
+		javier.guerra: 609
+		jorge.rojas: 1100
+		josefina.mateos: 512
+		juan.ramos: 752
+		laura.cabrera: 681
+		laura.lozano: 517
+		laura.santos: 639
+		lucia.delgado: 699
+		luisa.gracia: 1050
+		luisa.montes: 1108
+		magdalena.santiago: 705
+		manuel.medina: 1049
+		manuela.rico: 1391
+		marcela.luque: 1325
+		marco.acosta: 817
+		marcos.ferrer: 1057
+		marcos.pastor: 853
+		mariana.vidal: 1307
+		mariano.roca: 690
+		maricarmen.rey: 1101
+		mario.valero: 1290
+		memo.ruiz: 1348
+		miguel.manzano: 1227
+		norma.delgado: 705
+		norma.gracia: 540
+		pilar.jurado: 631
+		rafael.mora: 857
+		ramona.rivera: 1291
+		reina.torres: 1045
+		ricardo.carrillo: 626
+		rodrigo.mateo: 1041
+		rodrigo.medina: 1365
+		rosario.arroyo: 1072
+		rosario.soler: 1371
+		santiago.juan: 741
+		sergio.lozano: 1042
+		sonia.palacios: 1306
+		susana.aranda: 1056
+		susana.bravo: 1371
+		susana.gracia: 855
+		yolanda.torres: 658
+		yolanda.vila: 710
+
+Tiempo de ejecución: 101 segundos

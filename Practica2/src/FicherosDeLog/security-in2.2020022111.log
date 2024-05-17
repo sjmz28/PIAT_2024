@@ -1,0 +1,3 @@
+2020-02-21 11:00:12 security-in2 [A2733499]: SEC-PASSED: security-antivirus: CLEAN security-antispam: SPAM
+2020-02-21 11:00:14 security-in2 [A2733499]: relay to: user-mailbox1.etsist.upm.es
+2020-02-21 11:00:14 security-in2 [A2733499]: delivered, dsn: 2.0.0, queued as: B36000A1

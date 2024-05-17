@@ -1,0 +1,6 @@
+2020-02-21 11:01:05 security-out1 [31CBFA20]: connect from: msa1.etsist.upm.es
+2020-02-21 11:01:05 security-out1 [31CBFA20]: message from: <rosario.soler@etsist.upm.es> to: <margarita.ruiz@buitre.coloradillo.ms> message-id: <56986166@balla.etsist.upm.es> size: 10533833
+2020-02-21 11:01:14 security-out1 [31CBFA20]: status=2.0.0 (accepted)
+2020-02-21 11:01:14 security-out1 [31CBFA20]: SEC-PASSED: security-antivirus: CLEAN security-antispam: HAM
+2020-02-21 11:01:17 security-out1 [31CBFA20]: relay to: smtp-out2.etsist.upm.es
+2020-02-21 11:01:34 security-out1 [31CBFA20]: delivered, dsn: 2.0.0, queued as: 6E319351

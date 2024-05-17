@@ -1,0 +1,15 @@
+2020-02-22 05:00:07 security-in2 [D529324C]: connect from: smtp-in1.etsist.upm.es
+2020-02-22 05:00:07 security-in2 [D529324C]: message from: <unitednations@etsist.upm.es> to: <clemente.alonso@etsist.upm.es> message-id: <33545142@picasso.etsist.upm.es> size: 7366
+2020-02-22 05:00:07 security-in2 [D529324C]: status=2.0.0 (accepted)
+2020-02-22 05:00:07 security-in2 [D529324C]: SEC-PASSED: security-antivirus: CLEAN security-antispam: SPAM
+2020-02-22 05:00:10 security-in2 [D529324C]: relay to: user-mailbox2.etsist.upm.es
+2020-02-22 05:00:10 security-in2 [D529324C]: delivered, dsn: 2.0.0, queued as: 87F4D625
+2020-02-22 05:01:24 security-in2 [D529298E]: SEC-PASSED: security-antivirus: CLEAN security-antispam: HAM
+2020-02-22 05:01:26 security-in2 [D529298E]: relay to: user-mailbox2.etsist.upm.es
+2020-02-22 05:01:26 security-in2 [D529298E]: delivered, dsn: 2.0.0, queued as: 87F4D62A
+2020-02-22 05:04:34 security-in2 [D5293253]: connect from: smtp-in2.etsist.upm.es
+2020-02-22 05:04:34 security-in2 [D5293253]: message from: <church@etsist.upm.es> to: <yolanda.torres@etsist.upm.es> message-id: <78786295@sierhuis.etsist.upm.es> size: 32862
+2020-02-22 05:04:34 security-in2 [D5293253]: status=2.0.0 (accepted)
+2020-02-22 05:04:34 security-in2 [D5293253]: SEC-PASSED: security-antivirus: CLEAN security-antispam: SPAM
+2020-02-22 05:04:36 security-in2 [D5293253]: relay to: user-mailbox2.etsist.upm.es
+2020-02-22 05:04:36 security-in2 [D5293253]: delivered, dsn: 2.0.0, queued as: 87F4D631

@@ -1,0 +1,7 @@
+2020-02-22 07:01:43 security-out2 [9A4FC2D6]: SEC-PASSED: security-antivirus: CLEAN security-antispam: HAM
+2020-02-22 07:01:46 security-out2 [9A4FC2D6]: relay to: smtp-out2.etsist.upm.es
+2020-02-22 07:01:46 security-out2 [9A4FC2D6]: delivered, dsn: 2.0.0, queued as: 2905C4B2
+2020-02-22 07:06:09 security-out2 [9A4FC5EE]: connect from: msa2.etsist.upm.es
+2020-02-22 07:06:09 security-out2 [9A4FC5EE]: message from: <maricarmen.rey@etsist.upm.es> to: <margarita.carmona@achiote.tw> message-id: <62189409@c59.etsist.upm.es> size: 8191
+2020-02-22 07:06:09 security-out2 [9A4FC5EE]: status=2.0.0 (accepted)
+2020-02-22 07:06:09 security-out2 [9A4FC5EE]: SEC-BLOCKED: security-antivirus: CLEAN security-antispam: SPAM

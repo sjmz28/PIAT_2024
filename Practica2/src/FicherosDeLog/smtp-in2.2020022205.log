@@ -1,0 +1,6 @@
+2020-02-22 05:02:16 smtp-in2 [E21F3D44]: relay to: security-in3.etsist.upm.es
+2020-02-22 05:02:16 smtp-in2 [E21F3D44]: delivered, dsn: 2.0.0, queued as: 43CC7849
+2020-02-22 05:04:33 smtp-in2 [E21F42BE]: relay to: security-in2.etsist.upm.es
+2020-02-22 05:04:33 smtp-in2 [E21F42BE]: delivered, dsn: 2.0.0, queued as: D5293253
+2020-02-22 05:07:13 smtp-in2 [E21F4530]: relay to: security-in1.etsist.upm.es
+2020-02-22 05:07:13 smtp-in2 [E21F4530]: delivered, dsn: 2.0.0, queued as: 200E3F05

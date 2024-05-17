@@ -1,0 +1,16 @@
+2020-02-22 05:00:11 user-mailbox2 [87F4D625]: connect from: security-in2.etsist.upm.es
+2020-02-22 05:00:11 user-mailbox2 [87F4D625]: message from: <unitednations@etsist.upm.es> to: <clemente.alonso@etsist.upm.es> message-id: <33545142@picasso.etsist.upm.es> size: 7366
+2020-02-22 05:00:11 user-mailbox2 [87F4D625]: status=2.0.0 (accepted)
+2020-02-22 05:00:12 user-mailbox2 [87F4D625]: stored
+2020-02-22 05:01:27 user-mailbox2 [87F4D62A]: connect from: security-in2.etsist.upm.es
+2020-02-22 05:01:27 user-mailbox2 [87F4D62A]: message from: <beatriz.bueno@litchi.lc> to: <armando.merino@etsist.upm.es> message-id: <24192701@vermeer.litchi.lc> size: 14478
+2020-02-22 05:01:27 user-mailbox2 [87F4D62A]: status=2.0.0 (accepted)
+2020-02-22 05:01:27 user-mailbox2 [87F4D62A]: stored
+2020-02-22 05:04:37 user-mailbox2 [87F4D631]: connect from: security-in2.etsist.upm.es
+2020-02-22 05:04:37 user-mailbox2 [87F4D631]: message from: <church@etsist.upm.es> to: <yolanda.torres@etsist.upm.es> message-id: <78786295@sierhuis.etsist.upm.es> size: 32862
+2020-02-22 05:04:37 user-mailbox2 [87F4D631]: status=2.0.0 (accepted)
+2020-02-22 05:04:38 user-mailbox2 [87F4D631]: stored
+2020-02-22 05:06:18 user-mailbox2 [87F4D634]: connect from: security-in3.etsist.upm.es
+2020-02-22 05:06:18 user-mailbox2 [87F4D634]: message from: <sysadmin@etsist.upm.es> to: <catalina.miranda@etsist.upm.es> message-id: <22588149@sierhuis.etsist.upm.es> size: 4852934
+2020-02-22 05:06:19 user-mailbox2 [87F4D634]: status=2.0.0 (accepted)
+2020-02-22 05:06:20 user-mailbox2 [87F4D634]: stored

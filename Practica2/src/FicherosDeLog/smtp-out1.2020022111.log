@@ -1,0 +1,7 @@
+2020-02-21 11:01:12 smtp-out1 [64807B5F]: relay to: correo5.banteng.alerce.no
+2020-02-21 11:02:07 smtp-out1 [64807B5F]: delivered, dsn: 2.0.0, queued as: 980AB76B
+2020-02-21 11:02:52 smtp-out1 [64807E77]: connect from: security-out2.etsist.upm.es
+2020-02-21 11:02:52 smtp-out1 [64807E77]: message from: <susana.bravo@etsist.upm.es> to: <sara.cano@turbinto.tw> message-id: <85083425@haring.etsist.upm.es> size: 23047404
+2020-02-21 11:02:59 smtp-out1 [64807E77]: status=2.0.0 (accepted)
+2020-02-21 11:02:59 smtp-out1 [64807E77]: relay to: estafeta4.turbinto.tw
+2020-02-21 11:03:12 smtp-out1 [64807E77]: delivered, dsn: 2.0.0, queued as: 980AB774

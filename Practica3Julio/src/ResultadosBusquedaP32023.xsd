@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+ 			targetNamespace="http://piat.dte.upm.es/practica3" 
+ 			xmlns:tns="http://piat.dte.upm.es/practica3" 
+ 			elementFormDefault="qualified">
+ 			
+ 	<xsd:element name="searchResults">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="summary" type="tns:tSummary"/>
+				<xsd:element name="results" type="tns:tResults" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:complexType name="tSummary">
+		<xsd:sequence>
+			<xsd:element name="query" type="xsd:token">
+				<xsd:annotation>
+					<xsd:documentation>
+						Término de búsqueda (código de concepto)
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<xsd:element name="numConcepts" type="xsd:nonNegativeInteger">
+				<xsd:annotation>
+					<xsd:documentation>
+						Número de 'concept' pertinentes.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<xsd:element name="numDatasets" type="xsd:token">
+				<xsd:annotation>
+					<xsd:documentation>
+						Número de 'dataset' pertinentes.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="tResults">
+		<xsd:sequence>
+			<xsd:element ref="tns:concepts" />
+			<xsd:element ref="tns:datasets" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+					
+	
+	<!--  **********************  CONCEPTS **********************  -->
+	<xsd:element name="concepts" type="tns:tConcepts">
+		<xsd:annotation>
+			<xsd:documentation>
+				Elemento que se corresponde con el fragmento de
+				documento resultante de la serialización de la información devuelta
+				por el método 'getConcepts' de la clase 'ManejadorXML'.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:key name="keyConcept">
+			<xsd:selector xpath="./tns:concept" />
+			<xsd:field xpath="." />
+		</xsd:key>
+	</xsd:element>
+  
+<xsd:complexType name="tConcepts">
+	<xsd:sequence>
+		<xsd:element name="concept" type="xsd:anyURI" maxOccurs="unbounded">
+			<xsd:annotation>
+				<xsd:documentation>
+					Trasformación de elemento 'concept' pertinente al término de búsqueda. 
+				</xsd:documentation>
+			</xsd:annotation>
+		</xsd:element>
+	</xsd:sequence>
+</xsd:complexType>
+
+  <!--  ********************** DATASETS **********************  -->
+
+	<xsd:element name="datasets" type="tns:tDatasets" >
+		<xsd:key name="keyDataset">
+			<xsd:selector xpath="./tns:dataset" />
+			<xsd:field xpath="@id"/>
+		</xsd:key>				
+	</xsd:element>
+
+	<xsd:complexType name="tDatasets">
+		<xsd:sequence>
+			<xsd:element name="dataset" type="tns:tDataset" maxOccurs="unbounded">
+				<xsd:annotation>
+					<xsd:documentation>
+						Fragmento de documento resultante de la serialización de la información
+						devuelta por el método 'getDatasets' de la clase 'ManejadorXML'.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+		</xsd:sequence>	
+	</xsd:complexType>
+
+	<xsd:complexType name="tDataset">
+		<xsd:sequence>
+			<xsd:element name="title" type="xsd:string" >
+				<xsd:annotation>
+					<xsd:documentation>
+						Valor de cadena del elemento 'title' del elemento 'dataset' a transformar 
+					</xsd:documentation>
+				</xsd:annotation>			
+			</xsd:element>
+			<xsd:element name="description" type="xsd:string" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>
+						Valor de cadena del elemento 'description' del elemento 'dataset' a transformar 
+					</xsd:documentation>
+				</xsd:annotation>			
+			</xsd:element>
+			<xsd:element name="theme" type="xsd:anyURI" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>
+						Valor de cadena del elemento 'theme' del elemento 'dataset' a transformar 
+					</xsd:documentation>
+				</xsd:annotation>			
+			</xsd:element>			
+		</xsd:sequence>	
+		<xsd:attribute name="id" type="xsd:anyURI">
+			<xsd:annotation>
+				<xsd:documentation>
+					Valor del atributo 'id' del 'dataset' a transformar
+				</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+	</xsd:complexType>  
+ 
+</xsd:schema>

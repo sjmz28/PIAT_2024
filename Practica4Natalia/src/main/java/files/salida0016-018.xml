@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tns:searchResults xmlns:tns ="http://piat.dte.upm.es/practica4">
+	<tns:summary>
+		<tns:query> 0016-018 </tns:query>
+		<tns:numConcepts> 6 </tns:numConcepts>
+		<tns:numDatasets> 2 </tns:numDatasets>
+	</tns:summary>
+
+	<tns:results>
+		<tns:concepts>
+			<tns:concept>  https://datos.madrid.es/egob/kos/actividades/DanzaBaile </tns:concept>
+			<tns:concept>  https://datos.madrid.es/egob/kos/actividades/DanzaBaile/ClasicaEspanola </tns:concept>
+			<tns:concept>  https://datos.madrid.es/egob/kos/actividades/DanzaBaile/ContemporaneaBreakdanceHipHop </tns:concept>
+			<tns:concept>  https://datos.madrid.es/egob/kos/actividades/DanzaBaile/Flamenco </tns:concept>
+			<tns:concept>  https://datos.madrid.es/egob/kos/actividades/DanzaBaile/FolcloreEtnica </tns:concept>
+			<tns:concept>  https://datos.madrid.es/egob/kos/actividades/DanzaBaile/SalonTango </tns:concept>
+		</tns:concepts>
+		<tns:datasets>
+			<tns:dataset id = "https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json">
+			<tns:title> Unidades Integrales de Distrito de Policía Municipal </tns:title>
+			<tns:description> Relación de las Oficinas de Atención al Ciudadano de Policía Municipal ( OACs ). Se ubican en las 22 Unidades Integrales de Distrito, y en ellas se atienden comunicaciones o demandas de servicios no urgentes. Además de las oficinas fijas relacionadas, Policía Municipal dispone de oficinas móviles de atención al ciudadano que se ubican en lugares de alta concentración de personas. </tns:description>
+			<tns:theme> http://datos.gob.es/kos/sector-publico/sector/seguridad </tns:theme>
+			</tns:dataset>
+			<tns:dataset id = "https://datos.madrid.es/egob/catalogo/300107-0-agenda-actividades-eventos.json">
+			<tns:title> Unidades Integrales de Distrito de Policía Municipal </tns:title>
+			<tns:description> Relación de las Oficinas de Atención al Ciudadano de Policía Municipal ( OACs ). Se ubican en las 22 Unidades Integrales de Distrito, y en ellas se atienden comunicaciones o demandas de servicios no urgentes. Además de las oficinas fijas relacionadas, Policía Municipal dispone de oficinas móviles de atención al ciudadano que se ubican en lugares de alta concentración de personas. </tns:description>
+			<tns:theme> http://datos.gob.es/kos/sector-publico/sector/seguridad </tns:theme>
+			</tns:dataset>
+		</tns:datasets>
+		<tns:resources>
+		</tns:resources>
+	</tns:results>
+</tns:searchResults>

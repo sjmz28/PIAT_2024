@@ -1,0 +1,21 @@
+{
+  "query": "0016-018",
+  "numeroResources": "2",
+  "infDatasets": [
+    {
+      "id": "https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json",
+      "num": "5.0"
+    },
+    {
+      "id": "https://datos.madrid.es/egob/catalogo/300107-0-agenda-actividades-eventos.json",
+      "num": "5.0"
+    }
+  ],
+  "ubicaciones": [
+    "Fernan Gomez Centro Cultural de la Villa",
+    "Centro Sociocultural Almirante Churruca (Latina)",
+    "Centro Cultural Carril del Conde (Hortaleza)",
+    "Centro Cultural Hortaleza",
+    "Centro Juvenil Pipo Velasco (Usera)"
+  ]
+}

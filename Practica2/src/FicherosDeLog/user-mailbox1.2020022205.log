@@ -1,0 +1,16 @@
+2020-02-22 05:00:25 user-mailbox1 [AE02D397]: connect from: security-in3.etsist.upm.es
+2020-02-22 05:00:25 user-mailbox1 [AE02D397]: message from: <teodoro.flores@coralillo.gu> to: <clara.reyes@etsist.upm.es> message-id: <93960242@goyen.coralillo.gu> size: 827
+2020-02-22 05:00:25 user-mailbox1 [AE02D397]: status=2.0.0 (accepted)
+2020-02-22 05:00:25 user-mailbox1 [AE02D397]: stored
+2020-02-22 05:02:22 user-mailbox1 [AE02D39F]: connect from: security-in3.etsist.upm.es
+2020-02-22 05:02:22 user-mailbox1 [AE02D39F]: message from: <loteria@omalanto.sd> to: <antonio.acosta@etsist.upm.es> message-id: <42069179@chang.omalanto.sd> size: 5563
+2020-02-22 05:02:22 user-mailbox1 [AE02D39F]: status=2.0.0 (accepted)
+2020-02-22 05:02:22 user-mailbox1 [AE02D39F]: stored
+2020-02-22 05:02:42 user-mailbox1 [AE02D3A2]: connect from: security-in1.etsist.upm.es
+2020-02-22 05:02:42 user-mailbox1 [AE02D3A2]: message from: <teodoro.flores@coralillo.gu> to: <manuela.rico@etsist.upm.es> message-id: <40133991@taunay.coralillo.gu> size: 12525
+2020-02-22 05:02:42 user-mailbox1 [AE02D3A2]: status=2.0.0 (accepted)
+2020-02-22 05:02:43 user-mailbox1 [AE02D3A2]: stored
+2020-02-22 05:07:17 user-mailbox1 [AE02D3A4]: connect from: security-in1.etsist.upm.es
+2020-02-22 05:07:17 user-mailbox1 [AE02D3A4]: message from: <elvira.pacheco@turbinto.sx> to: <antonio.acosta@etsist.upm.es> message-id: <892951@bo33.turbinto.sx> size: 13637
+2020-02-22 05:07:17 user-mailbox1 [AE02D3A4]: status=2.0.0 (accepted)
+2020-02-22 05:07:17 user-mailbox1 [AE02D3A4]: stored

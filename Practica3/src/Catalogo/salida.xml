@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tns:searchResults xmlns:tns ="http://piat.dte.upm.es/practica3">
+	<tns:summary>
+			<tns:query> 0016-018 </tns:query>
+			<tns:numConcepts> 8 </tns:numConcepts>
+			<tns:numDatasets> 3 </tns:numDatasets>
+	</tns:summary>
+
+		<tns:results>
+				<tns:concepts>
+					<tns:concept>  https://datos.madrid.es/egob/kos/actividades/CursosTalleres </tns:concept>
+					<tns:concept>  https://datos.madrid.es/egob/kos/actividades/CursosTalleres/Arte </tns:concept>
+					<tns:concept>  https://datos.madrid.es/egob/kos/actividades/CursosTalleres/CapacitacionDigital </tns:concept>
+					<tns:concept>  https://datos.madrid.es/egob/kos/actividades/CursosTalleres/CulturaLibre </tns:concept>
+					<tns:concept>  https://datos.madrid.es/egob/kos/actividades/CursosTalleres/Historia </tns:concept>
+					<tns:concept>  https://datos.madrid.es/egob/kos/actividades/CursosTalleres/Idiomas </tns:concept>
+					<tns:concept>  https://datos.madrid.es/egob/kos/actividades/CursosTalleres/Literatura </tns:concept>
+					<tns:concept>  https://datos.madrid.es/egob/kos/actividades/CursosTalleres/Permacultura </tns:concept>
+		     </tns:concepts>
+				<tns:datasets>
+						<tns:dataset id = "https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json">
+								<tns:title>Sedes. Oficinas de Correos</tns:title>
+								<tns:description>Recopila información de las oficinas de correos de la ciudad que están publicadas en el portal institucional madrid.es. En la información de cada espacio, incluye información (si está disponible) sobre: el horario los equipamientos de que dispone y/o los servicios que presta su dirección completa (incluyendo calle, distrito, barrio, código postal y coordenadas geográficas) los medios de transporte más cercanos disponibles (Bus, metro, Bicimad y Renfe) teléfono el correo electrónico la dirección web donde está publicada en madrid.es para su consulta en un formato más amigable. Importante: La información proporcionada puede no ser exhaustiva, es la disponible actualmente en madrid.es. Fuente: www.madrid.es</tns:description>
+								<tns:theme>http://datos.gob.es/kos/sector-publico/sector/sector-publico</tns:theme>
+					</tns:dataset>
+						<tns:dataset id = "https://datos.madrid.es/egob/catalogo/300107-0-agenda-actividades-eventos.json">
+								<tns:title>Sedes. Oficinas de Correos</tns:title>
+								<tns:description>Recopila información de las oficinas de correos de la ciudad que están publicadas en el portal institucional madrid.es. En la información de cada espacio, incluye información (si está disponible) sobre: el horario los equipamientos de que dispone y/o los servicios que presta su dirección completa (incluyendo calle, distrito, barrio, código postal y coordenadas geográficas) los medios de transporte más cercanos disponibles (Bus, metro, Bicimad y Renfe) teléfono el correo electrónico la dirección web donde está publicada en madrid.es para su consulta en un formato más amigable. Importante: La información proporcionada puede no ser exhaustiva, es la disponible actualmente en madrid.es. Fuente: www.madrid.es</tns:description>
+								<tns:theme>http://datos.gob.es/kos/sector-publico/sector/sector-publico</tns:theme>
+					</tns:dataset>
+						<tns:dataset id = "https://datos.madrid.es/egob/catalogo/206717-0-agenda-eventos-bibliotecas.json">
+								<tns:title>Sedes. Oficinas de Correos</tns:title>
+								<tns:description>Recopila información de las oficinas de correos de la ciudad que están publicadas en el portal institucional madrid.es. En la información de cada espacio, incluye información (si está disponible) sobre: el horario los equipamientos de que dispone y/o los servicios que presta su dirección completa (incluyendo calle, distrito, barrio, código postal y coordenadas geográficas) los medios de transporte más cercanos disponibles (Bus, metro, Bicimad y Renfe) teléfono el correo electrónico la dirección web donde está publicada en madrid.es para su consulta en un formato más amigable. Importante: La información proporcionada puede no ser exhaustiva, es la disponible actualmente en madrid.es. Fuente: www.madrid.es</tns:description>
+								<tns:theme>http://datos.gob.es/kos/sector-publico/sector/sector-publico</tns:theme>
+					</tns:dataset>
+		     </tns:datasets>
+		</tns:results>
+</tns:searchResults>

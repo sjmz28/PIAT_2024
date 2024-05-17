@@ -14,7 +14,7 @@
             </tns:dimensiones>
             <tns:descripcion>Elemento opcional que describe la imagen</tns:descripcion>
         </tns:datosImagen>
-        <tns:contenido formato="image/png"></tns:contenido>
+        <tns:contenido  formato="tns:gif"></tns:contenido>
     </tns:imagen>
   </tns:espacioTarea>
 </tns:tarea>

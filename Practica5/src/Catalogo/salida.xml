@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<searchResults xmlns="http://piat.dte.upm.es/practica4"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://piat.dte.upm.es/practica4 ResultadosBusquedaP4.xsd">
+<summary>
+	<query>0016-018</query>
+	<numConcepts>8</numConcepts>
+	<numDatasets>3</numDatasets>
+</summary>
+<results>
+	<concepts>
+		<concept>https://datos.madrid.es/egob/kos/actividades/CursosTalleres</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/CursosTalleres/Arte</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/CursosTalleres/CapacitacionDigital</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/CursosTalleres/CulturaLibre</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/CursosTalleres/Historia</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/CursosTalleres/Idiomas</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/CursosTalleres/Literatura</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/CursosTalleres/Permacultura</concept>
+	</concepts>
+	<datasets>
+		<dataset id="https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json">
+			<title>Recopila información de las oficinas de correos de la ciudad que están publicadas en el portal institucional madrid.es. En la información de cada espacio, incluye información (si está disponible) sobre: el horario los equipamientos de que dispone y/o los servicios que presta su dirección completa (incluyendo calle, distrito, barrio, código postal y coordenadas geográficas) los medios de transporte más cercanos disponibles (Bus, metro, Bicimad y Renfe) teléfono el correo electrónico la dirección web donde está publicada en madrid.es para su consulta en un formato más amigable. Importante: La información proporcionada puede no ser exhaustiva, es la disponible actualmente en madrid.es. Fuente: www.madrid.es</title>
+			<description>http://datos.gob.es/kos/sector-publico/sector/sector-publico</description>
+			<theme>Sedes. Oficinas de Correos</theme>
+		</dataset>
+		<dataset id="https://datos.madrid.es/egob/catalogo/300107-0-agenda-actividades-eventos.json">
+			<title>Recopila información de las oficinas de correos de la ciudad que están publicadas en el portal institucional madrid.es. En la información de cada espacio, incluye información (si está disponible) sobre: el horario los equipamientos de que dispone y/o los servicios que presta su dirección completa (incluyendo calle, distrito, barrio, código postal y coordenadas geográficas) los medios de transporte más cercanos disponibles (Bus, metro, Bicimad y Renfe) teléfono el correo electrónico la dirección web donde está publicada en madrid.es para su consulta en un formato más amigable. Importante: La información proporcionada puede no ser exhaustiva, es la disponible actualmente en madrid.es. Fuente: www.madrid.es</title>
+			<description>http://datos.gob.es/kos/sector-publico/sector/sector-publico</description>
+			<theme>Sedes. Oficinas de Correos</theme>
+		</dataset>
+		<dataset id="https://datos.madrid.es/egob/catalogo/206717-0-agenda-eventos-bibliotecas.json">
+			<title>Recopila información de las oficinas de correos de la ciudad que están publicadas en el portal institucional madrid.es. En la información de cada espacio, incluye información (si está disponible) sobre: el horario los equipamientos de que dispone y/o los servicios que presta su dirección completa (incluyendo calle, distrito, barrio, código postal y coordenadas geográficas) los medios de transporte más cercanos disponibles (Bus, metro, Bicimad y Renfe) teléfono el correo electrónico la dirección web donde está publicada en madrid.es para su consulta en un formato más amigable. Importante: La información proporcionada puede no ser exhaustiva, es la disponible actualmente en madrid.es. Fuente: www.madrid.es</title>
+			<description>http://datos.gob.es/kos/sector-publico/sector/sector-publico</description>
+			<theme>Sedes. Oficinas de Correos</theme>
+		</dataset>
+	</datasets>	<resources>	<resource id="https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/CursosTalleres/Arte"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=296728f1aa80e810VgnVCM2000001f4a900aRCRD]]></link>
+		<title>Actividades en el centro juvenil 'Chamberí'. Mayo 2024</title>
+		<location>
+			<eventLocation>Centro Juvenil Chamberí</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/RiosRosas</area>
+				<locality>MADRID</locality>
+				<street>CALLE RAIMUNDO FERNANDEZ VILLAVERDE 2</street>
+			</address>
+			<timetable>
+				<start>2024-05-01 00:00:00.0</start>
+				<end>2024-05-31 23:59:00.0</end>
+			</timetable>
+			<georeference>40.44661949643803 -3.703467785151993</georeference>
+		</location>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/CursosTalleres"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=035c001cadd0e810VgnVCM1000001d4a900aRCRD]]></link>
+		<title>Aprende a identificar las mariposas de Madrid</title>
+		<location>
+			<eventLocation>Centro de Educación Ambiental de Casa de Campo</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CasaCampo</area>
+				<locality>MADRID</locality>
+				<street>PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) </street>
+			</address>
+			<timetable>
+				<start>2024-06-14 11:00:00.0</start>
+				<end>2024-06-14 23:59:00.0</end>
+			</timetable>
+			<georeference>40.41789950036311 -3.7309390858931137</georeference>
+		</location>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/CursosTalleres"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=9aeaafe3e5f5d810VgnVCM1000001d4a900aRCRD]]></link>
+		<title>BIS/ Jornadas de Intercambio de Semillas 2024</title>
+		<location>
+			<address>
+			</address>
+			<timetable>
+				<start>2024-02-15 00:00:00.0</start>
+				<end>2024-12-05 23:59:00.0</end>
+			</timetable>
+		</location>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/CursosTalleres"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=fb4c9aaf9877f810VgnVCM2000001f4a900aRCRD]]></link>
+		<title>Charla sobre el duelo.</title>
+		<location>
+			<eventLocation>Biblioteca Pública Municipal José Saramago (Fuencarral-El Pardo)</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/ElPilar</area>
+				<locality>MADRID</locality>
+				<street>AVENIDA MONFORTE DE LEMOS 38</street>
+			</address>
+			<timetable>
+				<start>2024-06-18 17:00:00.0</start>
+				<end>2024-06-18 23:59:00.0</end>
+			</timetable>
+			<georeference>40.47860087334554 -3.7094408342979954</georeference>
+		</location>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/CursosTalleres"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=d6c757f20923e810VgnVCM2000001f4a900aRCRD]]></link>
+		<title>Charla. El Convenio CITES y las cactáceas y suculentas</title>
+		<location>
+			<eventLocation>Centro de Información y Educación Ambiental El Huerto de El Retiro</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro/Barrio/LosJeronimos</area>
+				<locality>MADRID</locality>
+				<street>PASEO FERNAN NUÑEZ 2</street>
+			</address>
+			<timetable>
+				<start>2024-06-01 11:00:00.0</start>
+				<end>2024-06-01 23:59:00.0</end>
+			</timetable>
+			<georeference>40.40943503279114 -3.6861797800993257</georeference>
+		</location>
+		<description>La Asociación CACSUMA (Cactus y Suculentas de Madrid) ofrece esta charla sobre el convenio CITES y las cactáceas y suculentas. Se hablará también de las maletas mejicanas, crónica de uno de los mayores decomisos de cactáceas en España. Ponente: Marcos Fernández Sempere. Actividad dirigida a público adulto. Duración aproximada de dos horas.</description>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/300107-0-agenda-actividades-eventos.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/CursosTalleres/Arte"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=296728f1aa80e810VgnVCM2000001f4a900aRCRD]]></link>
+		<title>Actividades en el centro juvenil 'Chamberí'. Mayo 2024</title>
+		<location>
+			<eventLocation>Centro Juvenil Chamberí</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/RiosRosas</area>
+				<locality>MADRID</locality>
+				<street>CALLE RAIMUNDO FERNANDEZ VILLAVERDE 2</street>
+			</address>
+			<timetable>
+				<start>2024-05-01 00:00:00.0</start>
+				<end>2024-05-31 23:59:00.0</end>
+			</timetable>
+			<georeference>40.44661949643803 -3.703467785151993</georeference>
+		</location>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/300107-0-agenda-actividades-eventos.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/CursosTalleres"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=05467990ce34c810VgnVCM1000001d4a900aRCRD]]></link>
+		<title>Alas para volar. Grupo terapéutico</title>
+		<location>
+			<eventLocation>Espacio de Igualdad Nieves Torres. Chamartín</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin/Barrio/NuevaEspana</area>
+				<locality>MADRID</locality>
+				<street>CALLE ENRIQUE JARDIEL PONCELA 8</street>
+			</address>
+			<timetable>
+				<start>2024-05-21 10:30:00.0</start>
+				<end>2024-05-21 23:59:00.0</end>
+			</timetable>
+			<georeference>40.46088981165102 -3.6700689174427326</georeference>
+		</location>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/300107-0-agenda-actividades-eventos.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/CursosTalleres"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=e2399e88be95d810VgnVCM1000001d4a900aRCRD]]></link>
+		<title>Alfabetización digital a cargo de San Blas Digital</title>
+		<location>
+			<eventLocation>Espacio de Igualdad Gloria Fuertes. Vicálvaro</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Vicalvaro/Barrio/CascoHVicalvaro</area>
+				<locality>MADRID</locality>
+				<street>AVENIDA REAL 14</street>
+			</address>
+			<timetable>
+				<start>2024-05-29 10:00:00.0</start>
+				<end>2024-05-31 23:59:00.0</end>
+			</timetable>
+			<georeference>40.40274516135535 -3.6072257008596313</georeference>
+		</location>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/300107-0-agenda-actividades-eventos.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/CursosTalleres"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=035c001cadd0e810VgnVCM1000001d4a900aRCRD]]></link>
+		<title>Aprende a identificar las mariposas de Madrid</title>
+		<location>
+			<eventLocation>Centro de Educación Ambiental de Casa de Campo</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CasaCampo</area>
+				<locality>MADRID</locality>
+				<street>PARQUE CASA DE CAMPO (JUNTO AL EMBARCADERO DEL LAGO) </street>
+			</address>
+			<timetable>
+				<start>2024-06-14 11:00:00.0</start>
+				<end>2024-06-14 23:59:00.0</end>
+			</timetable>
+			<georeference>40.41789950036311 -3.7309390858931137</georeference>
+		</location>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/300107-0-agenda-actividades-eventos.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/CursosTalleres"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=46b6bd81877fc810VgnVCM2000001f4a900aRCRD]]></link>
+		<title>Aula digital</title>
+		<location>
+			<eventLocation>Espacio de Igualdad Ana Orantes. Barajas</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Barajas/Barrio/Timon</area>
+				<locality>MADRID</locality>
+				<street>CALLE PLAYA DE SAN JUAN 6</street>
+			</address>
+			<timetable>
+				<start>2024-02-06 12:30:00.0</start>
+				<end>2024-12-17 23:59:00.0</end>
+			</timetable>
+			<georeference>40.473659104975354 -3.592395079190456</georeference>
+		</location>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/206717-0-agenda-eventos-bibliotecas.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/CursosTalleres"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=fb4c9aaf9877f810VgnVCM2000001f4a900aRCRD]]></link>
+		<title>Charla sobre el duelo.</title>
+		<location>
+			<eventLocation>Biblioteca Pública Municipal José Saramago (Fuencarral-El Pardo)</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/ElPilar</area>
+				<locality>MADRID</locality>
+				<street>AVENIDA MONFORTE DE LEMOS 38</street>
+			</address>
+			<timetable>
+				<start>2024-06-18 17:00:00.0</start>
+				<end>2024-06-18 23:59:00.0</end>
+			</timetable>
+			<georeference>40.47860087334554 -3.7094408342979954</georeference>
+		</location>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/206717-0-agenda-eventos-bibliotecas.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/CursosTalleres"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=a6f3037db2a6a810VgnVCM2000001f4a900aRCRD]]></link>
+		<title>Conversaciones en inglés</title>
+		<location>
+			<eventLocation>Biblioteca Pública Municipal Ángel González (Latina)</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina/Barrio/Aluche</area>
+				<locality>MADRID</locality>
+				<street>CALLE GRANJA DE TORREHERMOSA 1</street>
+			</address>
+			<timetable>
+				<start>2023-10-03 18:00:00.0</start>
+				<end>2024-06-25 23:59:00.0</end>
+			</timetable>
+			<georeference>40.397074625115906 -3.7664885474841556</georeference>
+		</location>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/206717-0-agenda-eventos-bibliotecas.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/CursosTalleres/CapacitacionDigital"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=e2da52e1651dd810VgnVCM2000001f4a900aRCRD]]></link>
+		<title>Curso de Apps</title>
+		<location>
+			<eventLocation>Biblioteca Pública Municipal Iván de Vargas (Centro)</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Palacio</area>
+				<locality>MADRID</locality>
+				<street>CALLE SAN JUSTO 5</street>
+			</address>
+			<timetable>
+				<start>2024-06-03 11:00:00.0</start>
+				<end>2024-06-07 23:59:00.0</end>
+			</timetable>
+			<georeference>40.41410290844665 -3.7098591212735883</georeference>
+		</location>
+		<description>El curso de iniciación al uso de apps móviles es una experiencia enriquecedora que te brinda las herramientas necesarias para aprovechar al máximo tu smartphone o tablet. A lo largo de las clases, aprenderás a descargar, instalar y utilizar diferentes aplicaciones que te permitirán organizar tu agenda, comunicarte de forma efectiva, realizar compras en línea y disfrutar de entretenimiento en cualquier momento y lugar. Además, recibirás consejos prácticos sobre cómo optimizar el rendimiento de tu dispositivo y proteger tu información personal. Es necesario realizar inscripción previa a través de este formulario electrónico.</description>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/206717-0-agenda-eventos-bibliotecas.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/CursosTalleres"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=646ff1527cd5a810VgnVCM2000001f4a900aRCRD]]></link>
+		<title>Entretejidas</title>
+		<location>
+			<eventLocation>Biblioteca Pública Municipal San Fermín (Usera)</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera/Barrio/SanFermin</area>
+				<locality>MADRID</locality>
+				<street>AVENIDA SAN FERMIN 10</street>
+			</address>
+			<timetable>
+				<start>2023-09-07 17:00:00.0</start>
+				<end>2025-06-26 23:59:00.0</end>
+			</timetable>
+			<georeference>40.3711623444796 -3.692742821990015</georeference>
+		</location>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/206717-0-agenda-eventos-bibliotecas.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/CursosTalleres"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=4bdf3f8b220bc810VgnVCM1000001d4a900aRCRD]]></link>
+		<title>Filosofía y Política</title>
+		<location>
+			<eventLocation>Biblioteca Pública Municipal Pablo Neruda (Ciudad Lineal)</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/CiudadLineal/Barrio/PuebloNuevo</area>
+				<locality>MADRID</locality>
+				<street>CALLE ASCAO 4</street>
+			</address>
+			<timetable>
+				<start>2024-05-30 19:00:00.0</start>
+				<end>2024-05-30 23:59:00.0</end>
+			</timetable>
+			<georeference>40.42941133441142 -3.6416899839787695</georeference>
+		</location>
+	</resource>
+	</resources>
+	</results>
+
+</searchResults>

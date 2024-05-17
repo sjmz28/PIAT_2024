@@ -1,0 +1,3 @@
+2020-02-20 17:02:31 security-out1 [BCC1107D]: SEC-PASSED: security-antivirus: CLEAN security-antispam: HAM
+2020-02-20 17:02:34 security-out1 [BCC1107D]: relay to: smtp-out2.etsist.upm.es
+2020-02-20 17:02:48 security-out1 [BCC1107D]: delivered, dsn: 2.0.0, queued as: 4417E7A8

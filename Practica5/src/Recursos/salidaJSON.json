@@ -1,0 +1,31 @@
+{
+  "query": "0016-018",
+  "numeroResources": "3",
+  "infDatasets": [
+    {
+      "id": "https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json",
+      "num": "5.0"
+    },
+    {
+      "id": "https://datos.madrid.es/egob/catalogo/300107-0-agenda-actividades-eventos.json",
+      "num": "5.0"
+    },
+    {
+      "id": "https://datos.madrid.es/egob/catalogo/206717-0-agenda-eventos-bibliotecas.json",
+      "num": "5.0"
+    }
+  ],
+  "ubicaciones": [
+    "Centro Juvenil Chamberí",
+    "Centro de Educación Ambiental de Casa de Campo",
+    "Biblioteca Pública Municipal José Saramago (Fuencarral-El Pardo)",
+    "Centro de Información y Educación Ambiental El Huerto de El Retiro",
+    "Espacio de Igualdad Nieves Torres. Chamartín",
+    "Espacio de Igualdad Gloria Fuertes. Vicálvaro",
+    "Espacio de Igualdad Ana Orantes. Barajas",
+    "Biblioteca Pública Municipal Ángel González (Latina)",
+    "Biblioteca Pública Municipal Iván de Vargas (Centro)",
+    "Biblioteca Pública Municipal San Fermín (Usera)",
+    "Biblioteca Pública Municipal Pablo Neruda (Ciudad Lineal)"
+  ]
+}

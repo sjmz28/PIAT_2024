@@ -1,0 +1,5 @@
+2020-02-21 11:00:16 msa1 [F3160690]: connect from: balla.etsist.upm.es
+2020-02-21 11:00:17 msa1 [F3160690]: message from: <rosario.soler@etsist.upm.es> to: <margarita.ruiz@buitre.coloradillo.ms> message-id: <56986166@balla.etsist.upm.es> size: 10533833
+2020-02-21 11:01:05 msa1 [F3160690]: status=2.0.0 (accepted)
+2020-02-21 11:01:05 msa1 [F3160690]: relay to: security-out1.etsist.upm.es
+2020-02-21 11:01:14 msa1 [F3160690]: delivered, dsn: 2.0.0, queued as: 31CBFA20

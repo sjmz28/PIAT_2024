@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<searchResults xmlns="http://piat.dte.upm.es/practica4"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://piat.dte.upm.es/practica4 ResultadosBusquedaP4.xsd">
+<summary>
+	<query>0016-018</query>
+	<numConcepts>6</numConcepts>
+	<numDatasets>2</numDatasets>
+</summary>
+<results>
+	<concepts>
+		<concept>https://datos.madrid.es/egob/kos/actividades/DanzaBaile</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/DanzaBaile/ClasicaEspanola</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/DanzaBaile/ContemporaneaBreakdanceHipHop</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/DanzaBaile/Flamenco</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/DanzaBaile/FolcloreEtnica</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/DanzaBaile/SalonTango</concept>
+	</concepts>
+	<datasets>
+		<dataset id="https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json">
+			<title>Relacion de las Oficinas de Atencion al Ciudadano de Policia Municipal ( OACs ). Se ubican en las 22 Unidades Integrales de Distrito, y en ellas se atienden comunicaciones o demandas de servicios no urgentes. Ademas de las oficinas fijas relacionadas, Policia Municipal dispone de oficinas moviles de atencion al ciudadano que se ubican en lugares de alta concentracion de personas.</title>
+			<description>http://datos.gob.es/kos/sector-publico/sector/seguridad</description>
+			<theme>Unidades Integrales de Distrito de Policia Municipal</theme>
+		</dataset>
+		<dataset id="https://datos.madrid.es/egob/catalogo/300107-0-agenda-actividades-eventos.json">
+			<title>Relacion de las Oficinas de Atencion al Ciudadano de Policia Municipal ( OACs ). Se ubican en las 22 Unidades Integrales de Distrito, y en ellas se atienden comunicaciones o demandas de servicios no urgentes. Ademas de las oficinas fijas relacionadas, Policia Municipal dispone de oficinas moviles de atencion al ciudadano que se ubican en lugares de alta concentracion de personas.</title>
+			<description>http://datos.gob.es/kos/sector-publico/sector/seguridad</description>
+			<theme>Unidades Integrales de Distrito de Policia Municipal</theme>
+		</dataset>
+	</datasets>	<resources><resource id="https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json">
+    <concept id="https://datos.madrid.es/egob/kos/actividades/DanzaBaile"/>
+    <link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=16ba754adf429810VgnVCM1000001d4a900aRCRD]]></link>
+    <title>33 CERTAMEN DE COREOGRAFIA DE DANZA ESPANOLA Y FLAMENCO</title>
+    <location>
+        <eventLocation>Fernan Gomez Centro Cultural de la Villa</eventLocation>
+        <address>
+            <area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca/Barrio/Recoletos</area>
+            <locality>MADRID</locality>
+            <street>PLAZA COLON 4</street>
+        </address>
+        <timetable>
+            <start>2024-07-02 00:00:00.0</start>
+            <end>2024-07-07 23:59:00.0</end>
+        </timetable>
+        <georeference>40.4249721516942 -3.689948085098791</georeference>
+    </location>
+</resource>
+<resource id="https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json">
+    <concept id="https://datos.madrid.es/egob/kos/actividades/DanzaBaile"/>
+    <link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=0612f9cf7f31f810VgnVCM1000001d4a900aRCRD]]></link>
+    <title>Abelardo y los Ays</title>
+    <location>
+        <eventLocation>Centro Sociocultural Almirante Churruca (Latina)</eventLocation>
+        <address>
+            <area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina/Barrio/LasAguilas</area>
+            <locality>MADRID</locality>
+            <street>CALLE FUENTE DEL TIRO 72</street>
+        </address>
+        <timetable>
+            <start>2024-05-25 12:00:00.0</start>
+            <end>2024-05-25 23:59:00.0</end>
+        </timetable>
+        <georeference>40.3829835905706 -3.7800890564106613</georeference>
+    </location>
+    <description>Programacion especial con motivo de las Fiestas La Union Parque de Europa / Santa Margarita.  Divertido espectaculo de titeres.  Cuento tradicional espanol con piano y pianista en directo y muy participativo. De la mano de la compania Beti Alai.  Disfrutra de este divertido espectaculo!  Edad recomendada: a partir de 3 anos  El evento tendra lugar en el patio exterior del Centro Sociocultural Almirante Churruca.</description>
+</resource>
+<resource id="https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json">
+    <concept id="https://datos.madrid.es/egob/kos/actividades/DanzaBaile"/>
+    <link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=57a107c0aae2f810VgnVCM1000001d4a900aRCRD]]></link>
+    <title>Actividades en el Centro Cultural Carril del Conde</title>
+    <location>
+        <eventLocation>Centro Cultural Carril del Conde (Hortaleza)</eventLocation>
+        <address>
+            <area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/Canillas</area>
+            <locality>MADRID</locality>
+            <street>CALLE CARRIL DEL CONDE 57</street>
+        </address>
+        <timetable>
+            <start>2024-04-30 00:00:00.0</start>
+            <end>2024-05-31 23:59:00.0</end>
+        </timetable>
+        <georeference>40.46089499555313 -3.654366821391548</georeference>
+    </location>
+</resource>
+<resource id="https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json">
+    <concept id="https://datos.madrid.es/egob/kos/actividades/DanzaBaile/Flamenco"/>
+    <link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=d2a66d4fd6e2f810VgnVCM2000001f4a900aRCRD]]></link>
+    <title>Actividades en el Centro Cultural Hortaleza</title>
+    <location>
+        <eventLocation>Centro Cultural Hortaleza</eventLocation>
+        <address>
+            <area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/PinarRey</area>
+            <locality>MADRID</locality>
+            <street>CALLE SANTA VIRGILIA 15</street>
+        </address>
+        <timetable>
+            <start>2024-04-30 00:00:00.0</start>
+            <end>2024-05-31 23:59:00.0</end>
+        </timetable>
+        <georeference>40.47682410775741 -3.6420497457238</georeference>
+    </location>
+</resource>
+<resource id="https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json">
+    <concept id="https://datos.madrid.es/egob/kos/actividades/DanzaBaile/FolcloreEtnica"/>
+    <link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=8ff50712f95ed810VgnVCM2000001f4a900aRCRD]]></link>
+    <title>Actividades en el centro juvenil 'Pipo Velasco'. Mayo 2024.</title>
+    <location>
+        <eventLocation>Centro Juvenil Pipo Velasco (Usera)</eventLocation>
+        <address>
+            <area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera/Barrio/Zofio</area>
+            <locality>MADRID</locality>
+            <street>CALLE AVENA 5</street>
+        </address>
+        <timetable>
+            <start>2024-05-01 00:00:00.0</start>
+            <end>2024-05-31 23:59:00.0</end>
+        </timetable>
+        <georeference>40.37738097077752 -3.715659887802671</georeference>
+    </location>
+</resource>
+<resource id="https://datos.madrid.es/egob/catalogo/300107-0-agenda-actividades-eventos.json">
+    <concept id="https://datos.madrid.es/egob/kos/actividades/DanzaBaile"/>
+    <link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=16ba754adf429810VgnVCM1000001d4a900aRCRD]]></link>
+    <title>33 CERTAMEN DE COREOGRAFIA DE DANZA ESPANOLA Y FLAMENCO</title>
+    <location>
+        <eventLocation>Fernan Gomez Centro Cultural de la Villa</eventLocation>
+        <address>
+            <area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca/Barrio/Recoletos</area>
+            <locality>MADRID</locality>
+            <street>PLAZA COLON 4</street>
+        </address>
+        <timetable>
+            <start>2024-07-02 00:00:00.0</start>
+            <end>2024-07-07 23:59:00.0</end>
+        </timetable>
+        <georeference>40.4249721516942 -3.689948085098791</georeference>
+    </location>
+</resource>
+<resource id="https://datos.madrid.es/egob/catalogo/300107-0-agenda-actividades-eventos.json">
+    <concept id="https://datos.madrid.es/egob/kos/actividades/DanzaBaile"/>
+    <link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=0612f9cf7f31f810VgnVCM1000001d4a900aRCRD]]></link>
+    <title>Abelardo y los Ays</title>
+    <location>
+        <eventLocation>Centro Sociocultural Almirante Churruca (Latina)</eventLocation>
+        <address>
+            <area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina/Barrio/LasAguilas</area>
+            <locality>MADRID</locality>
+            <street>CALLE FUENTE DEL TIRO 72</street>
+        </address>
+        <timetable>
+            <start>2024-05-25 12:00:00.0</start>
+            <end>2024-05-25 23:59:00.0</end>
+        </timetable>
+        <georeference>40.3829835905706 -3.7800890564106613</georeference>
+    </location>
+    <description>Programacion especial con motivo de las Fiestas La Union Parque de Europa / Santa Margarita.  Divertido espectaculo de titeres.  Cuento tradicional espanol con piano y pianista en directo y muy participativo. De la mano de la compania Beti Alai.  Disfrutra de este divertido espectaculo!  Edad recomendada: a partir de 3 anos  El evento tendra lugar en el patio exterior del Centro Sociocultural Almirante Churruca.</description>
+</resource>
+<resource id="https://datos.madrid.es/egob/catalogo/300107-0-agenda-actividades-eventos.json">
+    <concept id="https://datos.madrid.es/egob/kos/actividades/DanzaBaile"/>
+    <link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=57a107c0aae2f810VgnVCM1000001d4a900aRCRD]]></link>
+    <title>Actividades en el Centro Cultural Carril del Conde</title>
+    <location>
+        <eventLocation>Centro Cultural Carril del Conde (Hortaleza)</eventLocation>
+        <address>
+            <area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/Canillas</area>
+            <locality>MADRID</locality>
+            <street>CALLE CARRIL DEL CONDE 57</street>
+        </address>
+        <timetable>
+            <start>2024-04-30 00:00:00.0</start>
+            <end>2024-05-31 23:59:00.0</end>
+        </timetable>
+        <georeference>40.46089499555313 -3.654366821391548</georeference>
+    </location>
+</resource>
+<resource id="https://datos.madrid.es/egob/catalogo/300107-0-agenda-actividades-eventos.json">
+    <concept id="https://datos.madrid.es/egob/kos/actividades/DanzaBaile/Flamenco"/>
+    <link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=d2a66d4fd6e2f810VgnVCM2000001f4a900aRCRD]]></link>
+    <title>Actividades en el Centro Cultural Hortaleza</title>
+    <location>
+        <eventLocation>Centro Cultural Hortaleza</eventLocation>
+        <address>
+            <area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/PinarRey</area>
+            <locality>MADRID</locality>
+            <street>CALLE SANTA VIRGILIA 15</street>
+        </address>
+        <timetable>
+            <start>2024-04-30 00:00:00.0</start>
+            <end>2024-05-31 23:59:00.0</end>
+        </timetable>
+        <georeference>40.47682410775741 -3.6420497457238</georeference>
+    </location>
+</resource>
+<resource id="https://datos.madrid.es/egob/catalogo/300107-0-agenda-actividades-eventos.json">
+    <concept id="https://datos.madrid.es/egob/kos/actividades/DanzaBaile/FolcloreEtnica"/>
+    <link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=8ff50712f95ed810VgnVCM2000001f4a900aRCRD]]></link>
+    <title>Actividades en el centro juvenil 'Pipo Velasco'. Mayo 2024.</title>
+    <location>
+        <eventLocation>Centro Juvenil Pipo Velasco (Usera)</eventLocation>
+        <address>
+            <area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera/Barrio/Zofio</area>
+            <locality>MADRID</locality>
+            <street>CALLE AVENA 5</street>
+        </address>
+        <timetable>
+            <start>2024-05-01 00:00:00.0</start>
+            <end>2024-05-31 23:59:00.0</end>
+        </timetable>
+        <georeference>40.37738097077752 -3.715659887802671</georeference>
+    </location>
+</resource>
+	</resources>
+	</results>
+
+</searchResults>

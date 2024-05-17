@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<searchResults xmlns="http://piat.dte.upm.es/practica4"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://piat.dte.upm.es/practica4 ResultadosBusquedaP4.xsd">
+<summary>
+	<query>0016-018</query>
+	<numConcepts>6</numConcepts>
+	<numDatasets>2</numDatasets>
+</summary>
+<results>
+	<concepts>
+		<concept>https://datos.madrid.es/egob/kos/actividades/DanzaBaile</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/DanzaBaile/ClasicaEspanola</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/DanzaBaile/ContemporaneaBreakdanceHipHop</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/DanzaBaile/Flamenco</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/DanzaBaile/FolcloreEtnica</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/DanzaBaile/SalonTango</concept>
+	</concepts>
+	<datasets>
+		<dataset id="https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json">
+			<title>Relación de actividades de carácter cultural y de ocio, que se van a celebrar en los próximos 100 días y/o que se están celebrando, en centros Municipales . Podrá encontrar así las actividades de Centros Culturales, Socioculturales, Centros Juveniles, Bibliotecas, Centros de Mayores, Museos, Juntas de Distrito, etc. En este Portal, existen otros conjuntos de datos donde puede ver la relación de los diversos centros anteriores. Tenga en cuenta que hay ciertas actividades que aunque son gratuitas , requieren inscripción previa. En el campo 'CONTENT-URL', esta la url donde puede obtener información adicional de la actividad y donde se especifica si se requiere inscripción y como realizarla . Hay otras actividades, que si tienen un coste asociado, igualmente tiene la información en la url anterior. En el apartado 'Documentación asociada', hay un documento con la estructura del fichero y las recomendaciones y/o advertencias, que le permitirá usar y comprender mejor los datos.</title>
+			<description>http://datos.gob.es/kos/sector-publico/sector/cultura-ocio</description>
+			<theme>Actividades Culturales y de Ocio Municipal en los próximos 100 días</theme>
+		</dataset>
+		<dataset id="https://datos.madrid.es/egob/catalogo/300107-0-agenda-actividades-eventos.json">
+			<title>Relación de actividades de distinto tipo que se van a celebrar o que se están celebrando, en centros municipales o asociados la actividad gestionada por el Ayuntamiento. Podrá encontrar así las actividades de Centros Culturales, Socioculturales, Centros Juveniles, Bibliotecas, Centros de Mayores, Museos, Juntas de Distrito, etc. En la columna P del fichero descargable, puede ver en que centro se realiza dicha actividad (puede ser en centros del ayuntamiento o no) No se trata de una relación exhaustiva de toda la actividad del Ayuntamiento de Madrid, sino solamente de aquellos que ya se encuentran incluidos en la página web www.madrid.es . Asi mismo pueden existir eventos, que por motivos de temática, pueden incluso estar duplicados. En este Portal, existen otros conjuntos de datos donde puede ver la relación de los diversos centros anteriores. Tenga en cuenta que hay ciertas actividades que aunque son gratuitas , requieren inscripción previa. En el campo 'CONTENT-URL', esta la url donde puede obtener información adicional de la actividad y donde se especifica si se requiere inscripción y como realizarla . Hay otras actividades, que si tienen un coste asociado, igualmente tiene la información en la url anterior. En la página siguiente tiene un buscador para poder encontrar una actividad en particular. En el apartado 'Documentación asociada', hay un documento con la estructura del fichero y las recomendaciones y/o advertencias, que le permitirá usar y comprender mejor los datos.</title>
+			<description>http://datos.gob.es/kos/sector-publico/sector/cultura-ocio</description>
+			<theme>Agenda de actividades y eventos</theme>
+		</dataset>
+	</datasets>	<resources>	<resource id="https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/DanzaBaile"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=9db3754adf429810VgnVCM1000001d4a900aRCRD]]></link>
+		<title>Boleros en la sombra</title>
+		<location>
+			<address>
+			</address>
+			<timetable>
+				<start>2023-08-06 20:00:00.0</start>
+				<end>2023-08-06 23:59:00.0</end>
+			</timetable>
+		</location>
+		<description>Recorrido por los clásicos y actuales canciones Música : A ritmo de boleros</description>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/DanzaBaile"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=482cc15b5c7d8810VgnVCM1000001d4a900aRCRD]]></link>
+		<title>Coffee &amp; wine</title>
+		<location>
+			<eventLocation>Centro Cultural Valdebernardo (Vicálvaro)</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Vicalvaro/Barrio/CascoHVicalvaro</area>
+				<locality>MADRID</locality>
+				<street>BULEVAR INDALECIO PRIETO 21</street>
+			</address>
+			<timetable>
+				<start>2023-07-27 20:00:00.0</start>
+				<end>2023-07-27 23:59:00.0</end>
+			</timetable>
+			<georeference>40.39982891410407 -3.621281890570377</georeference>
+		</location>
+		<description>INDIE - FOLK   El dúo plasma sus inquietudes por rescatar, renovar y dar vida a nuestra  música tradicional.  Su variada instrumentación, arreglos y composiciones dan  lugar a una puesta en escena renovada, fresca y pensada para acercar la  música folk a todo tipo de públicos.</description>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/DanzaBaile"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=facfe251ae1e8810VgnVCM1000001d4a900aRCRD]]></link>
+		<title>Constelación de la cultura en el Recinto Ferial: Ethno Spain</title>
+		<location>
+			<address>
+			</address>
+			<timetable>
+				<start>2023-07-14 21:30:00.0</start>
+				<end>2023-07-14 23:59:00.0</end>
+			</timetable>
+		</location>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/DanzaBaile"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=2289ae811c6f8810VgnVCM2000001f4a900aRCRD]]></link>
+		<title>Danzando por el mundo</title>
+		<location>
+			<address>
+			</address>
+			<timetable>
+				<start>2023-07-08 21:30:00.0</start>
+				<end>2023-07-08 23:59:00.0</end>
+			</timetable>
+		</location>
+		<description>Danza. Compañía K. Egoavil.  Lugar: Mirador Cerro Tío Pío.  Ciclo: Luna de Vallecas.  Edad recomendada: a partir de 8 años.  Duración: 50 minutos.  Sinopsis: Espectáculo muy visual y colorido que recoge diferentes cultural hindúes para celebrar la vida con un derroche de alegría y color donde también podrá participar el público.</description>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/DanzaBaile"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=26c1754adf429810VgnVCM1000001d4a900aRCRD]]></link>
+		<title>Desenchúfate</title>
+		<location>
+			<address>
+			</address>
+			<timetable>
+				<start>2023-08-02 19:30:00.0</start>
+				<end>2023-08-02 23:59:00.0</end>
+			</timetable>
+		</location>
+		<description>Familiar: DESENCHUFATE ¡¡¡¡¡ y ven a jugar con juegos de madera y más ¡¡¡¡¡¡</description>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/300107-0-agenda-actividades-eventos.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/DanzaBaile"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=929432617b2e8810VgnVCM1000001d4a900aRCRD]]></link>
+		<title>Archipiélago de los desastres</title>
+		<location>
+			<eventLocation>Teatro Español</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Cortes</area>
+				<locality>MADRID</locality>
+				<street>CALLE PRINCIPE 25</street>
+			</address>
+			<timetable>
+				<start>2024-05-02 19:30:00.0</start>
+				<end>2024-05-05 23:59:00.0</end>
+			</timetable>
+			<georeference>40.414828532240946 -3.700164949543688</georeference>
+		</location>
+		<description>Jueves a domingo / 19:30 horas</description>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/300107-0-agenda-actividades-eventos.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/DanzaBaile"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=48421764dc029810VgnVCM1000001d4a900aRCRD]]></link>
+		<title>Biodanza en el Espacio de Igualdad Nieves Torres</title>
+		<location>
+			<eventLocation>Espacio de Igualdad Nieves Torres. Chamartín</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin/Barrio/NuevaEspana</area>
+				<locality>MADRID</locality>
+				<street>CALLE ENRIQUE JARDIEL PONCELA 8</street>
+			</address>
+			<timetable>
+				<start>2023-07-06 12:15:00.0</start>
+				<end>2023-07-20 23:59:00.0</end>
+			</timetable>
+			<georeference>40.46088981165102 -3.6700689174427326</georeference>
+		</location>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/300107-0-agenda-actividades-eventos.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/DanzaBaile"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=9db3754adf429810VgnVCM1000001d4a900aRCRD]]></link>
+		<title>Boleros en la sombra</title>
+		<location>
+			<address>
+			</address>
+			<timetable>
+				<start>2023-08-06 20:00:00.0</start>
+				<end>2023-08-06 23:59:00.0</end>
+			</timetable>
+		</location>
+		<description>Recorrido por los clásicos y actuales canciones Música : A ritmo de boleros</description>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/300107-0-agenda-actividades-eventos.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/DanzaBaile"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=482cc15b5c7d8810VgnVCM1000001d4a900aRCRD]]></link>
+		<title>Coffee &amp; wine</title>
+		<location>
+			<eventLocation>Centro Cultural Valdebernardo (Vicálvaro)</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Vicalvaro/Barrio/CascoHVicalvaro</area>
+				<locality>MADRID</locality>
+				<street>BULEVAR INDALECIO PRIETO 21</street>
+			</address>
+			<timetable>
+				<start>2023-07-27 20:00:00.0</start>
+				<end>2023-07-27 23:59:00.0</end>
+			</timetable>
+			<georeference>40.39982891410407 -3.621281890570377</georeference>
+		</location>
+		<description>INDIE - FOLK   El dúo plasma sus inquietudes por rescatar, renovar y dar vida a nuestra  música tradicional.  Su variada instrumentación, arreglos y composiciones dan  lugar a una puesta en escena renovada, fresca y pensada para acercar la  música folk a todo tipo de públicos.</description>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/300107-0-agenda-actividades-eventos.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/DanzaBaile"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=398232617b2e8810VgnVCM1000001d4a900aRCRD]]></link>
+		<title>Compañía Nacional de Danza</title>
+		<location>
+			<eventLocation>Naves Español en Matadero</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/Chopera</area>
+				<locality>MADRID</locality>
+				<street>PASEO CHOPERA 14</street>
+			</address>
+			<timetable>
+				<start>2023-11-04 00:00:00.0</start>
+				<end>2023-11-12 23:59:00.0</end>
+			</timetable>
+			<georeference>40.39245798191536 -3.6972067902718897</georeference>
+		</location>
+	</resource>
+	</resources>
+	</results>
+
+</searchResults>

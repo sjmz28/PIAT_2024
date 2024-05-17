@@ -1,0 +1,15 @@
+2020-02-22 07:01:46 smtp-out2 [2905C4B2]: connect from: security-out2.etsist.upm.es
+2020-02-22 07:01:46 smtp-out2 [2905C4B2]: message from: <antonio.acosta@etsist.upm.es> to: <manuela.miguel@palisandro.wf> message-id: <88827268@elrond.etsist.upm.es> size: 14394
+2020-02-22 07:01:46 smtp-out2 [2905C4B2]: status=2.0.0 (accepted)
+2020-02-22 07:01:48 smtp-out2 [2905C4B2]: relay to: smtp4.palisandro.wf
+2020-02-22 07:01:48 smtp-out2 [2905C4B2]: delivered, dsn: 2.0.0, queued as: 9CEFB652
+2020-02-22 07:04:36 smtp-out2 [2905C4B9]: connect from: security-out1.etsist.upm.es
+2020-02-22 07:04:36 smtp-out2 [2905C4B9]: message from: <clemente.alonso@etsist.upm.es> to: <leticia.merino@loro.vn> message-id: <27761428@e90.etsist.upm.es> size: 7351
+2020-02-22 07:04:36 smtp-out2 [2905C4B9]: status=2.0.0 (accepted)
+2020-02-22 07:04:36 smtp-out2 [2905C4B9]: relay to: estafeta1.loro.vn
+2020-02-22 07:04:36 smtp-out2 [2905C4B9]: delivered, dsn: 2.0.0, queued as: 9CEFB65D
+2020-02-22 07:06:15 smtp-out2 [2905C4BA]: connect from: security-out1.etsist.upm.es
+2020-02-22 07:06:15 smtp-out2 [2905C4BA]: message from: <gloria.gil@etsist.upm.es> to: <irene.cano@esterculia.kw> message-id: <67478907@hockney.etsist.upm.es> size: 5665
+2020-02-22 07:06:15 smtp-out2 [2905C4BA]: status=2.0.0 (accepted)
+2020-02-22 07:06:15 smtp-out2 [2905C4BA]: relay to: post1.esterculia.kw
+2020-02-22 07:06:15 smtp-out2 [2905C4BA]: delivered, dsn: 2.0.0, queued as: 9CEFB668

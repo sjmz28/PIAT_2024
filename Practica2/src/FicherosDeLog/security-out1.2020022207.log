@@ -1,0 +1,18 @@
+2020-02-22 07:02:23 security-out1 [A081CE24]: connect from: msa2.etsist.upm.es
+2020-02-22 07:02:23 security-out1 [A081CE24]: message from: <marco.acosta@etsist.upm.es> to: <susana.blasco@caranday.mu> message-id: <90987795@djanira.etsist.upm.es> size: 7588713
+2020-02-22 07:02:29 security-out1 [A081CE24]: status=2.0.0 (accepted)
+2020-02-22 07:02:29 security-out1 [A081CE24]: SEC-PASSED: security-antivirus: CLEAN security-antispam: HAM
+2020-02-22 07:02:31 security-out1 [A081CE24]: relay to: smtp-out1.etsist.upm.es
+2020-02-22 07:02:43 security-out1 [A081CE24]: delivered, dsn: 2.0.0, queued as: 47AC642D
+2020-02-22 07:04:34 security-out1 [A081CE2A]: connect from: msa1.etsist.upm.es
+2020-02-22 07:04:34 security-out1 [A081CE2A]: message from: <clemente.alonso@etsist.upm.es> to: <leticia.merino@loro.vn> message-id: <27761428@e90.etsist.upm.es> size: 7351
+2020-02-22 07:04:34 security-out1 [A081CE2A]: status=2.0.0 (accepted)
+2020-02-22 07:04:34 security-out1 [A081CE2A]: SEC-PASSED: security-antivirus: CLEAN security-antispam: HAM
+2020-02-22 07:04:36 security-out1 [A081CE2A]: relay to: smtp-out2.etsist.upm.es
+2020-02-22 07:04:36 security-out1 [A081CE2A]: delivered, dsn: 2.0.0, queued as: 2905C4B9
+2020-02-22 07:06:12 security-out1 [A081CE2B]: connect from: msa1.etsist.upm.es
+2020-02-22 07:06:12 security-out1 [A081CE2B]: message from: <gloria.gil@etsist.upm.es> to: <irene.cano@esterculia.kw> message-id: <67478907@hockney.etsist.upm.es> size: 5665
+2020-02-22 07:06:12 security-out1 [A081CE2B]: status=2.0.0 (accepted)
+2020-02-22 07:06:12 security-out1 [A081CE2B]: SEC-PASSED: security-antivirus: CLEAN security-antispam: HAM
+2020-02-22 07:06:15 security-out1 [A081CE2B]: relay to: smtp-out2.etsist.upm.es
+2020-02-22 07:06:15 security-out1 [A081CE2B]: delivered, dsn: 2.0.0, queued as: 2905C4BA

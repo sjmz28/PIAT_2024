@@ -1,0 +1,12 @@
+2020-02-22 05:02:37 security-in1 [200E3F00]: connect from: smtp-in1.etsist.upm.es
+2020-02-22 05:02:37 security-in1 [200E3F00]: message from: <teodoro.flores@coralillo.gu> to: <manuela.rico@etsist.upm.es> message-id: <40133991@taunay.coralillo.gu> size: 12525
+2020-02-22 05:02:37 security-in1 [200E3F00]: status=2.0.0 (accepted)
+2020-02-22 05:02:37 security-in1 [200E3F00]: SEC-PASSED: security-antivirus: CLEAN security-antispam: HAM
+2020-02-22 05:02:41 security-in1 [200E3F00]: relay to: user-mailbox1.etsist.upm.es
+2020-02-22 05:02:41 security-in1 [200E3F00]: delivered, dsn: 2.0.0, queued as: AE02D3A2
+2020-02-22 05:07:14 security-in1 [200E3F05]: connect from: smtp-in2.etsist.upm.es
+2020-02-22 05:07:14 security-in1 [200E3F05]: message from: <elvira.pacheco@turbinto.sx> to: <antonio.acosta@etsist.upm.es> message-id: <892951@bo33.turbinto.sx> size: 13637
+2020-02-22 05:07:14 security-in1 [200E3F05]: status=2.0.0 (accepted)
+2020-02-22 05:07:14 security-in1 [200E3F05]: SEC-PASSED: security-antivirus: CLEAN security-antispam: HAM
+2020-02-22 05:07:16 security-in1 [200E3F05]: relay to: user-mailbox1.etsist.upm.es
+2020-02-22 05:07:16 security-in1 [200E3F05]: delivered, dsn: 2.0.0, queued as: AE02D3A4

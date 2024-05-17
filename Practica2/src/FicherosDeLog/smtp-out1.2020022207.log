@@ -1,0 +1,7 @@
+2020-02-22 07:02:31 smtp-out1 [47AC642D]: connect from: security-out1.etsist.upm.es
+2020-02-22 07:02:31 smtp-out1 [47AC642D]: message from: <marco.acosta@etsist.upm.es> to: <susana.blasco@caranday.mu> message-id: <90987795@djanira.etsist.upm.es> size: 7588713
+2020-02-22 07:02:43 smtp-out1 [47AC642D]: status=2.0.0 (accepted)
+2020-02-22 07:02:43 smtp-out1 [47AC642D]: relay to: post2.caranday.mu
+2020-02-22 07:02:59 smtp-out1 [47AC642D]: delivered, dsn: 2.0.0, queued as: 9CEFB655
+2020-02-22 07:06:00 smtp-out1 [47AC63F1]: relay to: post5.azufaifo.kr
+2020-02-22 07:06:01 smtp-out1 [47AC63F1]: delivered, dsn: 2.0.0, queued as: 9CEFB660

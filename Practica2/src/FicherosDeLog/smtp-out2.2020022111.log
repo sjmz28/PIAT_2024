@@ -1,0 +1,5 @@
+2020-02-21 11:01:17 smtp-out2 [6E319351]: connect from: security-out1.etsist.upm.es
+2020-02-21 11:01:17 smtp-out2 [6E319351]: message from: <rosario.soler@etsist.upm.es> to: <margarita.ruiz@buitre.coloradillo.ms> message-id: <56986166@balla.etsist.upm.es> size: 10533833
+2020-02-21 11:01:34 smtp-out2 [6E319351]: status=2.0.0 (accepted)
+2020-02-21 11:01:34 smtp-out2 [6E319351]: relay to: mx4.buitre.coloradillo.ms
+2020-02-21 11:01:37 smtp-out2 [6E319351]: delivered, dsn: 2.0.0, queued as: 980AB76E

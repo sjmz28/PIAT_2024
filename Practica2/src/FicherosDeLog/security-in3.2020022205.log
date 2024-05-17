@@ -1,0 +1,15 @@
+2020-02-22 05:00:20 security-in3 [43CC7043]: SEC-PASSED: security-antivirus: CLEAN security-antispam: HAM
+2020-02-22 05:00:24 security-in3 [43CC7043]: relay to: user-mailbox1.etsist.upm.es
+2020-02-22 05:00:24 security-in3 [43CC7043]: delivered, dsn: 2.0.0, queued as: AE02D397
+2020-02-22 05:02:17 security-in3 [43CC7849]: connect from: smtp-in2.etsist.upm.es
+2020-02-22 05:02:17 security-in3 [43CC7849]: message from: <loteria@omalanto.sd> to: <antonio.acosta@etsist.upm.es> message-id: <42069179@chang.omalanto.sd> size: 5563
+2020-02-22 05:02:17 security-in3 [43CC7849]: status=2.0.0 (accepted)
+2020-02-22 05:02:19 security-in3 [43CC7849]: SEC-PASSED: security-antivirus: CLEAN security-antispam: SPAM
+2020-02-22 05:02:21 security-in3 [43CC7849]: relay to: user-mailbox1.etsist.upm.es
+2020-02-22 05:02:21 security-in3 [43CC7849]: delivered, dsn: 2.0.0, queued as: AE02D39F
+2020-02-22 05:06:04 security-in3 [43CC7852]: connect from: smtp-in1.etsist.upm.es
+2020-02-22 05:06:05 security-in3 [43CC7852]: message from: <sysadmin@etsist.upm.es> to: <catalina.miranda@etsist.upm.es> message-id: <22588149@sierhuis.etsist.upm.es> size: 4852934
+2020-02-22 05:06:13 security-in3 [43CC7852]: status=2.0.0 (accepted)
+2020-02-22 05:06:14 security-in3 [43CC7852]: SEC-PASSED: security-antivirus: CLEAN security-antispam: SPAM
+2020-02-22 05:06:17 security-in3 [43CC7852]: relay to: user-mailbox2.etsist.upm.es
+2020-02-22 05:06:18 security-in3 [43CC7852]: delivered, dsn: 2.0.0, queued as: 87F4D634

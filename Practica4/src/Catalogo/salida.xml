@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<searchResults xmlns="http://piat.dte.upm.es/practica4"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://piat.dte.upm.es/practica4 ResultadosBusquedaP4.xsd">
+<summary>
+	<query>018</query>
+	<numConcepts>92</numConcepts>
+	<numDatasets>5</numDatasets>
+</summary>
+<results>
+	<concepts>
+		<concept>https://datos.madrid.es/egob/kos/actividades</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/1ciudad21distritos</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ActividadesCalleArteUrbano</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/Ajedrez</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/Atletismo</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/Automovilismo</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/Baloncesto</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/Balonmano</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/Ciclismo</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/Futbol</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/Gimnasia</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/Golf</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/Hipica</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/Hockey</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/Motociclismo</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/Natacion</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/Padel</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/Patinaje</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/Tenis</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/Triatlon</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ActividadesEscolares</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ActosReligiosos</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ActosSolidarios</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/Campamentos</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/CineActividadesAudiovisuales/CineDocumental</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/CineActividadesAudiovisuales/CineExperimental</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/CineActividadesAudiovisuales/CineFiccion</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/CineActividadesAudiovisuales/Fotografia</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/CircoMagia</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ClubesLectura</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ComemoracionesHomenajes</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ConcursosCertamenes</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ConferenciasColoquios/Arte</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ConferenciasColoquios/CulturaLibre</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ConferenciasColoquios/Historia</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ConferenciasColoquios/Literatura</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ConferenciasColoquios/Permacultura</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/CongresosJornadas</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/CuentacuentosTiteresMarionetas</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/CursosTalleres/Arte</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/CursosTalleres/CapacitacionDigital</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/CursosTalleres/CulturaLibre</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/CursosTalleres/Historia</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/CursosTalleres/Idiomas</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/CursosTalleres/Literatura</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/CursosTalleres/Permacultura</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/DanzaBaile/ClasicaEspanola</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/DanzaBaile/ContemporaneaBreakdanceHipHop</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/DanzaBaile/Flamenco</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/DanzaBaile/FolcloreEtnica</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/DanzaBaile/SalonTango</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/EnLinea</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ExcursionesItinerariosVisitas</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/Exposiciones</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/Ferias</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/Festivales</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/Fiestas</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/FiestasCarnavales</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/FiestasNavidadesReyes/Belenes</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/FiestasNavidadesReyes/Cabalgatas</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/FiestasRamadan</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/FiestasSanIsidro</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/FiestasSemanaSanta</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/Gastronomia</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ItinerariosOtrasActividadesAmbientales</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/JOBO</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/LGTBI</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/Musica/CantautorFolkCountry</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/Musica/Clasica</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/Musica/CoroGospel</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/Musica/DjsElectronicaExperimental</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/Musica/EtnicaBatucada</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/Musica/Flamenco</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/Musica/JazzSoulFunkySwingReagge</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/Musica/LatinaEspanola</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/Musica/RapHipHop</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/Musica/RockPop</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/Musica/Zarzuela</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ProgramaTandem</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ProgramacionDestacadaAgendaCultura</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/RecitalesPresentacionesActosLiterarios</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/TeatroPerformance/Clasico</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/TeatroPerformance/ComediaMonologo</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/TeatroPerformance/Drama</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/TeatroPerformance/MusicalCabaret</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/TeatroPerformance/Opera</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/TeatroPerformance/Performance</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/VeranosVilla</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ZMUPI</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ZNewsletter</concept>
+		<concept>https://datos.madrid.es/egob/kos/actividades/ZOposiciones</concept>
+	</concepts>
+	<datasets>
+		<dataset id="https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json">
+			<title>Recopila información de las oficinas de correos de la ciudad que están publicadas en el portal institucional madrid.es. En la información de cada espacio, incluye información (si está disponible) sobre: el horario los equipamientos de que dispone y/o los servicios que presta su dirección completa (incluyendo calle, distrito, barrio, código postal y coordenadas geográficas) los medios de transporte más cercanos disponibles (Bus, metro, Bicimad y Renfe) teléfono el correo electrónico la dirección web donde está publicada en madrid.es para su consulta en un formato más amigable. Importante: La información proporcionada puede no ser exhaustiva, es la disponible actualmente en madrid.es. Fuente: www.madrid.es</title>
+			<description>http://datos.gob.es/kos/sector-publico/sector/sector-publico</description>
+			<theme>Sedes. Oficinas de Correos</theme>
+		</dataset>
+		<dataset id="https://datos.madrid.es/egob/catalogo/212504-0-agenda-actividades-deportes.json">
+			<title>Recopila información de las oficinas de correos de la ciudad que están publicadas en el portal institucional madrid.es. En la información de cada espacio, incluye información (si está disponible) sobre: el horario los equipamientos de que dispone y/o los servicios que presta su dirección completa (incluyendo calle, distrito, barrio, código postal y coordenadas geográficas) los medios de transporte más cercanos disponibles (Bus, metro, Bicimad y Renfe) teléfono el correo electrónico la dirección web donde está publicada en madrid.es para su consulta en un formato más amigable. Importante: La información proporcionada puede no ser exhaustiva, es la disponible actualmente en madrid.es. Fuente: www.madrid.es</title>
+			<description>http://datos.gob.es/kos/sector-publico/sector/sector-publico</description>
+			<theme>Sedes. Oficinas de Correos</theme>
+		</dataset>
+		<dataset id="https://datos.madrid.es/egob/catalogo/300107-0-agenda-actividades-eventos.json">
+			<title>Recopila información de las oficinas de correos de la ciudad que están publicadas en el portal institucional madrid.es. En la información de cada espacio, incluye información (si está disponible) sobre: el horario los equipamientos de que dispone y/o los servicios que presta su dirección completa (incluyendo calle, distrito, barrio, código postal y coordenadas geográficas) los medios de transporte más cercanos disponibles (Bus, metro, Bicimad y Renfe) teléfono el correo electrónico la dirección web donde está publicada en madrid.es para su consulta en un formato más amigable. Importante: La información proporcionada puede no ser exhaustiva, es la disponible actualmente en madrid.es. Fuente: www.madrid.es</title>
+			<description>http://datos.gob.es/kos/sector-publico/sector/sector-publico</description>
+			<theme>Sedes. Oficinas de Correos</theme>
+		</dataset>
+		<dataset id="https://datos.madrid.es/egob/catalogo/206717-0-agenda-eventos-bibliotecas.json">
+			<title>Recopila información de las oficinas de correos de la ciudad que están publicadas en el portal institucional madrid.es. En la información de cada espacio, incluye información (si está disponible) sobre: el horario los equipamientos de que dispone y/o los servicios que presta su dirección completa (incluyendo calle, distrito, barrio, código postal y coordenadas geográficas) los medios de transporte más cercanos disponibles (Bus, metro, Bicimad y Renfe) teléfono el correo electrónico la dirección web donde está publicada en madrid.es para su consulta en un formato más amigable. Importante: La información proporcionada puede no ser exhaustiva, es la disponible actualmente en madrid.es. Fuente: www.madrid.es</title>
+			<description>http://datos.gob.es/kos/sector-publico/sector/sector-publico</description>
+			<theme>Sedes. Oficinas de Correos</theme>
+		</dataset>
+		<dataset id="https://datos.madrid.es/egob/catalogo/300261-0-agenda-proximas-carreras.json">
+			<title>Recopila información de las oficinas de correos de la ciudad que están publicadas en el portal institucional madrid.es. En la información de cada espacio, incluye información (si está disponible) sobre: el horario los equipamientos de que dispone y/o los servicios que presta su dirección completa (incluyendo calle, distrito, barrio, código postal y coordenadas geográficas) los medios de transporte más cercanos disponibles (Bus, metro, Bicimad y Renfe) teléfono el correo electrónico la dirección web donde está publicada en madrid.es para su consulta en un formato más amigable. Importante: La información proporcionada puede no ser exhaustiva, es la disponible actualmente en madrid.es. Fuente: www.madrid.es</title>
+			<description>http://datos.gob.es/kos/sector-publico/sector/sector-publico</description>
+			<theme>Sedes. Oficinas de Correos</theme>
+		</dataset>
+	</datasets>	<resources>	<resource id="https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/ProgramacionDestacadaAgendaCultura"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=4bde6126dc15f810VgnVCM2000001f4a900aRCRD]]></link>
+		<title>50 años de 'Octubre à Madrid' (Diario filmado). Pases especiales</title>
+		<location>
+			<eventLocation>Cineteca Madrid</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/Chopera</area>
+				<locality>MADRID</locality>
+				<street>PLAZA LEGAZPI 8</street>
+			</address>
+			<timetable>
+				<start>2024-05-28 00:00:00.0</start>
+				<end>2024-05-28 23:59:00.0</end>
+			</timetable>
+			<georeference>40.39130985242181 -3.6958028442054074</georeference>
+		</location>
+		<description>Con dieciséis años, vi en televisión la película de Marcel Hanoun  Octubre à Madrid . Fue una revelación para mí, así conocí la existencia del diario filmado en el cine. Dos años más tarde, cuando empecé a filmar, lo hice en forma de diario. Unos años más tarde, conocí a Marcel Hanoun, que se convirtió en mi padre espiritual cinematográfico. Vivimos juntos varias aventuras cinematográficas. También fue entonces cuando descubrí España, y Madrid en particular. En octubre de 2014, con motivo del cincuenta aniversario del rodaje de  Octubre en Madrid , rodé en Madrid una película homenaje a la película de Hanoun. Incluye imágenes de una película de vacaciones rodada en el verano de 1970 llamada  Viaje a España , marcada por el periodo de la dictadura franquista y referencias a Luis Buñuel, Sergei Mikhailovich Einsenstein y otros cineastas.     50 años de 'Octubre à Madrid' (Diario filmado)   es la historia de mi relación con Marcel Hanoun, con España y con Madrid. Es como una confidencia susurrada a alguien con quien tengo un vínculo íntimo: el público.     Joseph Morder     &amp;gt; SESIÓN DE INAUGURACIÓN DOCUMENTA MADRID 2024</description>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/ActividadesCalleArteUrbano"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=f0794d623591f810VgnVCM1000001d4a900aRCRD]]></link>
+		<title>8.ª Feria del libro en Puente de Vallecas</title>
+		<location>
+			<eventLocation>Jardín del Bulevar de Peña Gorbea</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas/Barrio/SanDiego</area>
+				<locality>MADRID</locality>
+				<street>CALLE PEÑA GORBEA 17</street>
+			</address>
+			<timetable>
+				<start>2024-05-10 00:00:00.0</start>
+				<end>2024-05-26 23:59:00.0</end>
+			</timetable>
+			<georeference>40.3957812018463 -3.6670346724676173</georeference>
+		</location>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/TeatroPerformance/ComediaMonologo"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=6e3217e26051f810VgnVCM1000001d4a900aRCRD]]></link>
+		<title>Aburrimiento vocacional</title>
+		<location>
+			<eventLocation>Centro Sociocultural Rosario de Acuña (Latina)</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina/Barrio/PuertaAngel</area>
+				<locality>MADRID</locality>
+				<street>CALLE MARIA DEL CARMEN 65</street>
+			</address>
+			<timetable>
+				<start>2024-05-17 19:00:00.0</start>
+				<end>2024-05-17 23:59:00.0</end>
+			</timetable>
+			<georeference>40.40647389284976 -3.7327010920242043</georeference>
+		</location>
+		<description>Paula es un individuo más perteneciente a la generación Z, que aún no ha encontrado su voz.  Lo ha intentado, pero se ha aburrido.  Lo sigue intentando, insertada en la era tecnológica de la inmediatez, en un contexto donde la duda es penada con el castigo de la anulación social. De la mano de Laura Ubach.  ¡No te puedes perder este monólogo!</description>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/DanzaBaile/Flamenco"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=d2a66d4fd6e2f810VgnVCM2000001f4a900aRCRD]]></link>
+		<title>Actividades en el Centro Cultural Hortaleza</title>
+		<location>
+			<eventLocation>Centro Cultural Hortaleza</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/PinarRey</area>
+				<locality>MADRID</locality>
+				<street>CALLE SANTA VIRGILIA 15</street>
+			</address>
+			<timetable>
+				<start>2024-04-30 00:00:00.0</start>
+				<end>2024-05-31 23:59:00.0</end>
+			</timetable>
+			<georeference>40.47682410775741 -3.6420497457238</georeference>
+		</location>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/RecitalesPresentacionesActosLiterarios"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=bdc8f6144ce2f810VgnVCM2000001f4a900aRCRD]]></link>
+		<title>Actividades en el Centro Cultural Sanchinarro</title>
+		<location>
+			<eventLocation>Centro Cultural Sanchinarro (Hortaleza)</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/Valdefuentes</area>
+				<locality>MADRID</locality>
+				<street>CALLE PRINCESA DE EBOLI 29</street>
+			</address>
+			<timetable>
+				<start>2024-05-01 00:00:00.0</start>
+				<end>2024-05-31 23:59:00.0</end>
+			</timetable>
+			<georeference>40.49042200599307 -3.6553467891079854</georeference>
+		</location>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/212504-0-agenda-actividades-deportes.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/DanzaBaile/FolcloreEtnica"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=8ff50712f95ed810VgnVCM2000001f4a900aRCRD]]></link>
+		<title>Actividades en el centro juvenil 'Pipo Velasco'. Mayo 2024.</title>
+		<location>
+			<eventLocation>Centro Juvenil Pipo Velasco (Usera)</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera/Barrio/Zofio</area>
+				<locality>MADRID</locality>
+				<street>CALLE AVENA 5</street>
+			</address>
+			<timetable>
+				<start>2024-05-01 00:00:00.0</start>
+				<end>2024-05-31 23:59:00.0</end>
+			</timetable>
+			<georeference>40.37738097077752 -3.715659887802671</georeference>
+		</location>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/212504-0-agenda-actividades-deportes.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/Campamentos"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=04d799721fe2f810VgnVCM2000001f4a900aRCRD]]></link>
+		<title>Campamentos urbanos verano 2024 para niños nacidos entre 2008-2011</title>
+		<location>
+			<eventLocation>Centro de Servicios Sociales Fuente Carrantona</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moratalaz/Barrio/Pavones</area>
+				<locality>MADRID</locality>
+				<street>CALLE FUENTE CARRANTONA 12</street>
+			</address>
+			<timetable>
+				<start>2024-07-01 08:30:00.0</start>
+				<end>2024-07-19 23:59:00.0</end>
+			</timetable>
+			<georeference>40.40179722425483 -3.6354058846496793</georeference>
+		</location>
+		<description>Dirigido a adolescentes de entre 13 y 16 años. Todas las actividades serán en el exterior, teniendo como punto de encuentro el Centro de Servicios Sociales situado en la calle Fuente Carrantona, 12. Se llevarán a cabo en dos periodos durante el mes de julio en horario de 08:30 a 15:30 horas en las siguientes fechas: - 1, 2, 3, 4 y 5 de julio (5 días). - 15, 16, 17, 18 y 19 de julio (5 días). La empresa encargada de la organización contactará con las familias cuyos menores hayan sido admitidos para mantener una reunión e informarlas de todos los detalles.</description>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/212504-0-agenda-actividades-deportes.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/Campamentos"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=ae2499721fe2f810VgnVCM2000001f4a900aRCRD]]></link>
+		<title>Campamentos urbanos verano 2024 para niños nacidos entre 2012-2020</title>
+		<location>
+			<eventLocation>Colegio Público Martínez Montañés</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moratalaz/Barrio/Pavones</area>
+				<locality>MADRID</locality>
+				<street>CALLE HACIENDA DE PAVONES 223</street>
+			</address>
+			<timetable>
+				<start>2024-06-24 08:30:00.0</start>
+				<end>2024-08-30 23:59:00.0</end>
+			</timetable>
+			<georeference>40.40191354205018 -3.6339103602187524</georeference>
+		</location>
+		<description>Dirigido a menores de 3 a 12 años. Las actividades se desarrollarán tanto en el interior del Colegio CEIP Martínez Montañés así como en otras ubicaciones en exteriores. Se llevarán a cabo en 6 periodos durante los meses de junio, julio y agosto en horario de 08:30 a 15:30 horas en las siguientes fechas: - 24, 25, 26, 27 y 28 junio (5 días). - 1 de julio al 12 de julio (10 días). - 15 al 26 de julio (9 días – 25 festivo). - 29 de julio al 9 de agosto (10 días). - 12 al 23 de agosto (9 días – 15 festivo). - 26 al 30 de agosto (5 días). La empresa encargada de la organización contactará con las familias cuyos menores hayan sido admitidos para mantener una reunión e informarlas de todos los detalles.</description>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/212504-0-agenda-actividades-deportes.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=845b5c81f775f810VgnVCM2000001f4a900aRCRD]]></link>
+		<title>Carrera solidaria Niños sin cáncer City</title>
+		<location>
+			<eventLocation>Parque Juan Carlos I</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid 28042/Distrito/Barajas/Barrio/Corralejos</area>
+				<locality>MADRID 28042</locality>
+				<street>GLORIETA S.A.R. DON JUAN DE BORBON Y BATTEMBERG, 5 5</street>
+			</address>
+			<timetable>
+				<start>2024-05-19 10:00:00.0</start>
+				<end>2024-05-19 23:59:00.0</end>
+			</timetable>
+			<georeference>40.45999848510341 -3.6148888706303586</georeference>
+		</location>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/212504-0-agenda-actividades-deportes.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/Ciclismo"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=db40e3f0c91ea710VgnVCM2000001f4a900aRCRD]]></link>
+		<title>Ciclismo por Madrid</title>
+		<location>
+			<address>
+			</address>
+			<timetable>
+				<start>2023-09-01 00:00:00.0</start>
+				<end>2024-06-30 23:59:00.0</end>
+			</timetable>
+		</location>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/300107-0-agenda-actividades-eventos.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/Exposiciones"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=e175896ab550f810VgnVCM1000001d4a900aRCRD]]></link>
+		<title>39ª Muestra del Libro Infantil y Juvenil</title>
+		<location>
+			<eventLocation>Biblioteca Pública Municipal Iván de Vargas (Centro)</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Palacio</area>
+				<locality>MADRID</locality>
+				<street>CALLE SAN JUSTO 5</street>
+			</address>
+			<timetable>
+				<start>2024-05-03 08:30:00.0</start>
+				<end>2024-05-16 23:59:00.0</end>
+			</timetable>
+			<georeference>40.41410290844665 -3.7098591212735883</georeference>
+		</location>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/300107-0-agenda-actividades-eventos.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/ProgramacionDestacadaAgendaCultura"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=4bde6126dc15f810VgnVCM2000001f4a900aRCRD]]></link>
+		<title>50 años de 'Octubre à Madrid' (Diario filmado). Pases especiales</title>
+		<location>
+			<eventLocation>Cineteca Madrid</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/Chopera</area>
+				<locality>MADRID</locality>
+				<street>PLAZA LEGAZPI 8</street>
+			</address>
+			<timetable>
+				<start>2024-05-28 00:00:00.0</start>
+				<end>2024-05-28 23:59:00.0</end>
+			</timetable>
+			<georeference>40.39130985242181 -3.6958028442054074</georeference>
+		</location>
+		<description>Con dieciséis años, vi en televisión la película de Marcel Hanoun  Octubre à Madrid . Fue una revelación para mí, así conocí la existencia del diario filmado en el cine. Dos años más tarde, cuando empecé a filmar, lo hice en forma de diario. Unos años más tarde, conocí a Marcel Hanoun, que se convirtió en mi padre espiritual cinematográfico. Vivimos juntos varias aventuras cinematográficas. También fue entonces cuando descubrí España, y Madrid en particular. En octubre de 2014, con motivo del cincuenta aniversario del rodaje de  Octubre en Madrid , rodé en Madrid una película homenaje a la película de Hanoun. Incluye imágenes de una película de vacaciones rodada en el verano de 1970 llamada  Viaje a España , marcada por el periodo de la dictadura franquista y referencias a Luis Buñuel, Sergei Mikhailovich Einsenstein y otros cineastas.     50 años de 'Octubre à Madrid' (Diario filmado)   es la historia de mi relación con Marcel Hanoun, con España y con Madrid. Es como una confidencia susurrada a alguien con quien tengo un vínculo íntimo: el público.     Joseph Morder     &amp;gt; SESIÓN DE INAUGURACIÓN DOCUMENTA MADRID 2024</description>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/300107-0-agenda-actividades-eventos.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/ActividadesCalleArteUrbano"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=f0794d623591f810VgnVCM1000001d4a900aRCRD]]></link>
+		<title>8.ª Feria del libro en Puente de Vallecas</title>
+		<location>
+			<eventLocation>Jardín del Bulevar de Peña Gorbea</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas/Barrio/SanDiego</area>
+				<locality>MADRID</locality>
+				<street>CALLE PEÑA GORBEA 17</street>
+			</address>
+			<timetable>
+				<start>2024-05-10 00:00:00.0</start>
+				<end>2024-05-26 23:59:00.0</end>
+			</timetable>
+			<georeference>40.3957812018463 -3.6670346724676173</georeference>
+		</location>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/300107-0-agenda-actividades-eventos.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/TeatroPerformance/ComediaMonologo"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=6e3217e26051f810VgnVCM1000001d4a900aRCRD]]></link>
+		<title>Aburrimiento vocacional</title>
+		<location>
+			<eventLocation>Centro Sociocultural Rosario de Acuña (Latina)</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina/Barrio/PuertaAngel</area>
+				<locality>MADRID</locality>
+				<street>CALLE MARIA DEL CARMEN 65</street>
+			</address>
+			<timetable>
+				<start>2024-05-17 19:00:00.0</start>
+				<end>2024-05-17 23:59:00.0</end>
+			</timetable>
+			<georeference>40.40647389284976 -3.7327010920242043</georeference>
+		</location>
+		<description>Paula es un individuo más perteneciente a la generación Z, que aún no ha encontrado su voz.  Lo ha intentado, pero se ha aburrido.  Lo sigue intentando, insertada en la era tecnológica de la inmediatez, en un contexto donde la duda es penada con el castigo de la anulación social. De la mano de Laura Ubach.  ¡No te puedes perder este monólogo!</description>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/300107-0-agenda-actividades-eventos.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/DanzaBaile/Flamenco"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=d2a66d4fd6e2f810VgnVCM2000001f4a900aRCRD]]></link>
+		<title>Actividades en el Centro Cultural Hortaleza</title>
+		<location>
+			<eventLocation>Centro Cultural Hortaleza</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/PinarRey</area>
+				<locality>MADRID</locality>
+				<street>CALLE SANTA VIRGILIA 15</street>
+			</address>
+			<timetable>
+				<start>2024-04-30 00:00:00.0</start>
+				<end>2024-05-31 23:59:00.0</end>
+			</timetable>
+			<georeference>40.47682410775741 -3.6420497457238</georeference>
+		</location>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/206717-0-agenda-eventos-bibliotecas.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/CuentacuentosTiteresMarionetas"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=6d9afcf9aa67f810VgnVCM1000001d4a900aRCRD]]></link>
+		<title>Ciclo novela negra francesa: 'El miedo como entretenimiento', con Vicente Garrido</title>
+		<location>
+			<eventLocation>Biblioteca Pública Municipal Eugenio Trías. Casa de Fieras de El Retiro (Retiro)</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro/Barrio/LosJeronimos</area>
+				<locality>MADRID</locality>
+				<street>PASEO FERNÁN NÚÑEZ 24</street>
+			</address>
+			<timetable>
+				<start>2024-05-21 19:00:00.0</start>
+				<end>2024-05-21 23:59:00.0</end>
+			</timetable>
+			<georeference>40.4166091081099 -3.6795930368034804</georeference>
+		</location>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/206717-0-agenda-eventos-bibliotecas.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/ClubesLectura"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=2b3382e069ceb810VgnVCM2000001f4a900aRCRD]]></link>
+		<title>Club de lectura en francés</title>
+		<location>
+			<eventLocation>Biblioteca Pública Municipal San Blas (San Blas-Canillejas)</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas/Barrio/Arcos</area>
+				<locality>MADRID</locality>
+				<street>CALLE SAN ROMAN DEL VALLE 8</street>
+			</address>
+			<timetable>
+				<start>2023-04-26 19:00:00.0</start>
+				<end>2024-05-22 23:59:00.0</end>
+			</timetable>
+			<georeference>40.420231627534996 -3.6218113860909074</georeference>
+		</location>
+		<description>El club de lectura en francés está formado por un grupo de personas que comparten la misma lectura y se reúnen para comentarla cada dos semanas.  Horario de tarde, de 19 a 20:30 horas.   Quincenales: las reuniones del club se celebran los miércoles de forma alterna, en la Biblioteca San Blas.  Para participar es impresindible la inscripción previa.</description>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/206717-0-agenda-eventos-bibliotecas.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/ClubesLectura"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=426182e069ceb810VgnVCM2000001f4a900aRCRD]]></link>
+		<title>Club de lectura en inglés</title>
+		<location>
+			<eventLocation>Biblioteca Pública Municipal San Blas (San Blas-Canillejas)</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas/Barrio/Arcos</area>
+				<locality>MADRID</locality>
+				<street>CALLE SAN ROMAN DEL VALLE 8</street>
+			</address>
+			<timetable>
+				<start>2023-04-26 11:00:00.0</start>
+				<end>2024-05-22 23:59:00.0</end>
+			</timetable>
+			<georeference>40.420231627534996 -3.6218113860909074</georeference>
+		</location>
+		<description>El club de lectura en inglés está formado por un grupo de personas que comparten la misma lectura y se reúnen para comentarla cada dos semanas.  Horario de mañana, de 11 a 12:30 horas.  Quincenales: las reuniones del club se celebran los miércoles de forma alterna, en la Biblioteca San Blas. Para participar es impresindible la inscripción previa.</description>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/206717-0-agenda-eventos-bibliotecas.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/ClubesLectura"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=26926c18e3ceb810VgnVCM1000001d4a900aRCRD]]></link>
+		<title>Club de lectura (infantil). Jueves 5 de octubre de 2023 a jueves 23 de mayo de 2024</title>
+		<location>
+			<eventLocation>Biblioteca Pública Municipal María Lejárraga (Hortaleza)</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/Valdefuentes</area>
+				<locality>MADRID</locality>
+				<street>CALLE PRINCESA DE EBOLI 29</street>
+			</address>
+			<timetable>
+				<start>2023-10-05 18:00:00.0</start>
+				<end>2024-05-23 23:59:00.0</end>
+			</timetable>
+			<georeference>40.49041562546542 -3.655356751728003</georeference>
+		</location>
+		<description>stras actividades favoritas, dónde la lectura es la protagonista. En estos clubes de lectura un grupo de niñas y niños, leen al mismo tiempo un libro y periódicamente se reúnen para comentarlo y hacer un montón de actividades que hacen la lectura aún más divertida, combinando la lectura personal y la posibilidad de compartir la experiencia con otras personas, sin duda una fantástica manera para que los más pequeños de la casa adquirieran el hábito lector.  Dirigido a usuarios de 9 a 12 años.  Horario: de 18 a 19:30 horas.  Quincenal: el taller se desarrola el día de la semana correspondiente de forma alterna, en la biblioteca elegida. Para participar es impresindible la inscripción a través de  formulario electrónico .</description>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/206717-0-agenda-eventos-bibliotecas.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/ClubesLectura"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=1c94471873ecb810VgnVCM2000001f4a900aRCRD]]></link>
+		<title>Club de lectura - Biblioteca Pablo Neruda</title>
+		<location>
+			<eventLocation>Biblioteca Pública Municipal Pablo Neruda (Ciudad Lineal)</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/CiudadLineal/Barrio/PuebloNuevo</area>
+				<locality>MADRID</locality>
+				<street>CALLE ASCAO 4</street>
+			</address>
+			<timetable>
+				<start>2023-11-16 10:00:00.0</start>
+				<end>2024-05-23 23:59:00.0</end>
+			</timetable>
+			<georeference>40.42941133441142 -3.6416899839787695</georeference>
+		</location>
+		<description>El club de lectura consiste en formar un grupo de personas que leen al mismo tiempo un libro, y periódicamente, en un día y hora predeterminados se reúnen para comentarlo.    Quincenal: el taller se desarrolla los jueves de 10 a 11:30 horas.   Para participar es imprescindible la inscripción previa.</description>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/300261-0-agenda-proximas-carreras.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=845b5c81f775f810VgnVCM2000001f4a900aRCRD]]></link>
+		<title>Carrera solidaria Niños sin cáncer City</title>
+		<location>
+			<eventLocation>Parque Juan Carlos I</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid 28042/Distrito/Barajas/Barrio/Corralejos</area>
+				<locality>MADRID 28042</locality>
+				<street>GLORIETA S.A.R. DON JUAN DE BORBON Y BATTEMBERG, 5 5</street>
+			</address>
+			<timetable>
+				<start>2024-05-19 10:00:00.0</start>
+				<end>2024-05-19 23:59:00.0</end>
+			</timetable>
+			<georeference>40.45999848510341 -3.6148888706303586</georeference>
+		</location>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/300261-0-agenda-proximas-carreras.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=b3dc4d7d3e0fe810VgnVCM2000001f4a900aRCRD]]></link>
+		<title>Corre por la esclerosis múltiple 2024</title>
+		<location>
+			<eventLocation>Parque de la Casa de Campo</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CasaCampo</area>
+				<locality>MADRID</locality>
+				<street>PASEO PUERTA DEL ANGEL 1</street>
+			</address>
+			<timetable>
+				<start>2024-05-25 09:00:00.0</start>
+				<end>2024-05-25 23:59:00.0</end>
+			</timetable>
+			<georeference>40.41472407139105 -3.7301857404819767</georeference>
+		</location>
+	</resource>
+	<resource id="https://datos.madrid.es/egob/catalogo/300261-0-agenda-proximas-carreras.json">
+		<concept id="https://datos.madrid.es/egob/kos/actividades/ActividadesDeportivas/CarrerasMaratones"/>
+		<link><![CDATA[http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=456a330ffedae810VgnVCM1000001d4a900aRCRD]]></link>
+		<title>Nationale-Nederlanden Plogging Tour Madrid</title>
+		<location>
+			<eventLocation>Parque del Oeste</eventLocation>
+			<address>
+				<area>https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CasaCampo</area>
+				<locality>MADRID</locality>
+				<street>PASEO CAMOENS Y VALERO 4</street>
+			</address>
+			<timetable>
+				<start>2024-05-19 09:45:00.0</start>
+				<end>2024-05-19 23:59:00.0</end>
+			</timetable>
+			<georeference>40.43179642724134 -3.7281634896577027</georeference>
+		</location>
+	</resource>
+	</resources>
+	</results>
+
+</searchResults>
